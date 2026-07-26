@@ -1,0 +1,33 @@
+name: daytrader
+
+on:
+  schedule:
+    - cron: '*/5 13-20 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install yfinance pandas numpy
+
+      - name: Run day-trader
+        run: python run.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "daytrader-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add portfolio.json dashboard_data.js reports/ 2>/dev/null || true
+          git commit -m "state update $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "nothing to commit"
+          git push || echo "nothing to push"
