@@ -1,0 +1,1 @@
+window.PORTFOLIO = {"cash": 10000, "positions": {}, "history": [], "daily_snapshots": []};
