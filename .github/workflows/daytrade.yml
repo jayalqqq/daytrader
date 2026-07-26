@@ -2,7 +2,10 @@ name: daytrader
 
 on:
   schedule:
+    # Every 5 min during US market hours (13:30-20:00 UTC = 9:30a-4p ET)
     - cron: '*/5 13-20 * * 1-5'
+    # End-of-day report once, ~10 min after close (20:10 UTC)
+    - cron: '10 20 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -13,16 +16,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
       - name: Install dependencies
         run: pip install yfinance pandas numpy
 
-      - name: Run day-trader
+      - name: Run day-trader (scan + trade)
         run: python run.py
+
+      - name: End-of-day report (only on the 20:10 run)
+        if: github.event.schedule == '10 20 * * 1-5'
+        run: python run.py eod
 
       - name: Commit updated state
         run: |
