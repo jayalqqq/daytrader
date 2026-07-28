@@ -1,7 +1,8 @@
-DAY-TRADER · Tuesday, July 28 18:40
+DAY-TRADER · Tuesday, July 28 20:07
 ----------------------------------------
-Total value:   $10,041.18
-All-time P&L:  +$41.18 (+0.41%)
+Total value:   $10,036.73
+All-time P&L:  +$36.73 (+0.37%)
 Realized P&L:  +$50.15
 Closed trades: 1  |  Win rate: 100%
-Open now:      0
+Open now:      1
+  SPY: 12 sh @ $740.76 (ORB breakout), now $740.76 (+0.00)
