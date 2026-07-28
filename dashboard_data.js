@@ -1,1 +1,1 @@
-window.PORTFOLIO = {"cash": 10000, "positions": {}, "history": [], "daily_snapshots": []};
+window.PORTFOLIO = {"cash": 1051.6258424758907, "positions": {"UPRO": {"shares": 65, "entry": 137.59849548339844, "stop": 136.91, "target": 138.97, "pattern": "ORB breakout"}}, "history": [{"time": "2026-07-28T15:26:07", "action": "BUY", "ticker": "UPRO", "shares": 65, "price": 137.6, "pattern": "ORB breakout"}], "daily_snapshots": []};
