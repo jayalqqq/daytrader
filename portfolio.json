@@ -1,5 +1,5 @@
 {
-  "cash": 1138.7247028884904,
+  "cash": 1129.835582771304,
   "positions": {
     "SPY": {
       "shares": 12,
@@ -44,6 +44,22 @@
     },
     {
       "time": "2026-07-28T21:19:07",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 12,
+      "price": 740.76,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-28T21:31:41",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 12,
+      "price": 740.76,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-07-28T21:31:41",
       "action": "BUY",
       "ticker": "SPY",
       "shares": 12,
