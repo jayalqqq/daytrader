@@ -1,14 +1,6 @@
 {
-  "cash": 1129.835582771304,
-  "positions": {
-    "SPY": {
-      "shares": 12,
-      "entry": 740.760009765625,
-      "stop": 737.06,
-      "target": 748.17,
-      "pattern": "ORB breakout"
-    }
-  },
+  "cash": 9945.665697029117,
+  "positions": {},
   "history": [
     {
       "time": "2026-07-28T15:26:07",
@@ -65,6 +57,14 @@
       "shares": 12,
       "price": 740.76,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-29T15:12:12",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 12,
+      "price": 735.02,
+      "pnl": -68.88
     }
   ],
   "daily_snapshots": []
