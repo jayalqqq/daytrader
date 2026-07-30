@@ -1,0 +1,30 @@
+🔔 END-OF-DAY REPORT · Thursday, July 30
+==========================================
+💰 Account value    $9,918.10
+📈 Day's realized   $-2.94
+📊 All-time P&L     $-81.90 (-0.82%)
+
+Trades opened today:  9
+Trades closed today:  6
+Win rate today:       0%  (0W / 3L)
+Best trade:           SPY +$0.00
+Worst trade:          SPY $-2.16
+
+Today's trades:
+  BUY 12 SPY @ $741.91 [ORB breakout]
+  BUY 1 QQQ @ $684.04 [ORB breakout]
+  BUY 4 SSO @ $66.14 [ORB breakout]
+  SELL (EOD-EXIT) 12 SPY @ $741.73  ($-2.16)
+  SELL (EOD-EXIT) 1 QQQ @ $683.60  ($-0.44)
+  SELL (EOD-EXIT) 4 SSO @ $66.06  ($-0.34)
+  BUY 12 SPY @ $741.73 [ORB breakout]
+  BUY 1 QQQ @ $683.60 [ORB breakout]
+  BUY 4 SSO @ $66.06 [ORB breakout]
+  SELL (EOD-EXIT) 12 SPY @ $741.73  (+$0.00)
+  SELL (EOD-EXIT) 1 QQQ @ $683.60  (+$0.00)
+  SELL (EOD-EXIT) 4 SSO @ $66.06  (+$0.00)
+  BUY 12 SPY @ $741.73 [ORB breakout]
+  BUY 1 QQQ @ $683.60 [ORB breakout]
+  BUY 4 SSO @ $66.06 [ORB breakout]
+
+Positions still open:  3
