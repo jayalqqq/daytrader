@@ -1,25 +1,25 @@
 {
-  "cash": 73.85774943543004,
+  "cash": 64.02868946839254,
   "positions": {
     "SPY": {
       "shares": 11,
-      "entry": 746.8200073242188,
-      "stop": 743.09,
-      "target": 754.29,
+      "entry": 746.8099975585938,
+      "stop": 743.08,
+      "target": 754.28,
       "pattern": "ORB breakout"
     },
     "SSO": {
       "shares": 22,
-      "entry": 66.94000244140625,
-      "stop": 66.61,
-      "target": 67.61,
+      "entry": 67.0,
+      "stop": 66.67,
+      "target": 67.67,
       "pattern": "ORB breakout"
     },
     "UPRO": {
       "shares": 1,
-      "entry": 140.0399932861328,
-      "stop": 139.34,
-      "target": 141.44,
+      "entry": 140.14999389648438,
+      "stop": 139.45,
+      "target": 141.55,
       "pattern": "ORB breakout"
     }
   },
@@ -254,6 +254,54 @@
       "ticker": "UPRO",
       "shares": 1,
       "price": 140.04,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-31T21:17:56",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 746.81,
+      "pnl": -0.11
+    },
+    {
+      "time": "2026-07-31T21:17:56",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SSO",
+      "shares": 22,
+      "price": 67.0,
+      "pnl": 1.32
+    },
+    {
+      "time": "2026-07-31T21:17:56",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 140.15,
+      "pnl": 0.11
+    },
+    {
+      "time": "2026-07-31T21:17:56",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 746.81,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-31T21:17:57",
+      "action": "BUY",
+      "ticker": "SSO",
+      "shares": 22,
+      "price": 67.0,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-31T21:17:57",
+      "action": "BUY",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 140.15,
       "pattern": "ORB breakout"
     }
   ],
