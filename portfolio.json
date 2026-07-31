@@ -1,5 +1,5 @@
 {
-  "cash": 64.02868946839254,
+  "cash": 54.19962950135442,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -298,6 +298,54 @@
     },
     {
       "time": "2026-07-31T21:17:57",
+      "action": "BUY",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 140.15,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-31T21:32:24",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 746.81,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-07-31T21:32:24",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SSO",
+      "shares": 22,
+      "price": 67.0,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-07-31T21:32:24",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 140.15,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-07-31T21:32:25",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 746.81,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-31T21:32:25",
+      "action": "BUY",
+      "ticker": "SSO",
+      "shares": 22,
+      "price": 67.0,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-07-31T21:32:26",
       "action": "BUY",
       "ticker": "UPRO",
       "shares": 1,

@@ -1,7 +1,7 @@
-DAY-TRADER · Friday, July 31 21:17
+DAY-TRADER · Friday, July 31 21:32
 ----------------------------------------
-Total value:   $9,893.09
-All-time P&L:  $-106.91 (-1.07%)
+Total value:   $9,883.26
+All-time P&L:  $-116.74 (-1.17%)
 Realized P&L:  $-27.02
 Closed trades: 11  |  Win rate: 27%
 Open now:      3
