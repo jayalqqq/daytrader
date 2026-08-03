@@ -13,6 +13,7 @@ PAPER ONLY. No broker, no keys, no real orders.
 
 import json
 from datetime import datetime, time
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import yfinance as yf
@@ -25,6 +26,21 @@ STOP_LOSS = 0.005      # 0.5% hard stop
 TAKE_PROFIT = 0.01     # 1% target
 RISK_PER_TRADE = 0.02  # deploy up to 2% of book per position idea
 MAX_CONCURRENT = 3     # don't over-diversify intraday
+
+EASTERN = ZoneInfo("America/New_York")
+
+
+def market_now():
+    """Current time in US market (Eastern) timezone, regardless of server TZ.
+    This is the fix: the cloud runs in UTC, so datetime.now() was always past
+    the old cutoff and triggered a sell+rebuy loop every run."""
+    return datetime.now(EASTERN)
+
+
+def is_session_ending():
+    """True only in the real last 15 min of the US session (3:45-4:00pm ET)."""
+    t = market_now().time()
+    return time(15, 45) <= t <= time(16, 0)
 
 
 def load_state():
@@ -55,8 +71,7 @@ def current_price(ticker):
 
 def manage_open_positions(state):
     """Apply stop-loss, take-profit, and end-of-day exit."""
-    now = datetime.now().time()
-    session_ending = now >= time(12, 45)  # ~15 min before 1pm PT / 4pm ET close
+    session_ending = is_session_ending()
 
     for ticker in list(state["positions"].keys()):
         pos = state["positions"][ticker]
@@ -75,7 +90,7 @@ def manage_open_positions(state):
             state["cash"] += proceeds
             pnl = (price - pos["entry"]) * pos["shares"]
             state["history"].append({
-                "time": datetime.now().isoformat(timespec="seconds"),
+                "time": datetime.now(EASTERN).isoformat(timespec="seconds"),
                 "action": f"SELL ({reason})", "ticker": ticker,
                 "shares": pos["shares"], "price": round(price, 2),
                 "pnl": round(pnl, 2),
@@ -85,6 +100,10 @@ def manage_open_positions(state):
 
 
 def open_position(state, ticker, price, pattern):
+    # Don't open new positions in the last 15 min — we're trying to go flat,
+    # not re-enter right before close (that was half the churn bug).
+    if is_session_ending():
+        return
     if len(state["positions"]) >= MAX_CONCURRENT:
         print(f"  {ticker}: signal but at max {MAX_CONCURRENT} positions")
         return
@@ -107,7 +126,7 @@ def open_position(state, ticker, price, pattern):
         "pattern": pattern,
     }
     state["history"].append({
-        "time": datetime.now().isoformat(timespec="seconds"),
+        "time": datetime.now(EASTERN).isoformat(timespec="seconds"),
         "action": "BUY", "ticker": ticker, "shares": shares,
         "price": round(price, 2), "pattern": pattern,
     })
