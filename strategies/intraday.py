@@ -1,80 +1,83 @@
 """
-Intraday strategy: patterns + REQUIRED context.
+Intraday strategies — MORE ACTIVE / higher-risk version.
 
-A signal only fires when a candlestick pattern appears TOGETHER with the
-confirming context the research says is essential. This is the whole point —
-patterns alone lose; patterns + trend + volume + level is what has a shot.
+Adds the most widely-used retail day-trading setups from the 2026 research and
+LOOSENS entries so the bot actually trades (the old version required 4 rare
+conditions at once and never fired).
 
-Entry logic (long):
-  bullish pattern  AND  prior downtrend  AND  volume confirms  AND  near VWAP
-Entry logic (short is NOT taken — this bot is long/flat only, no shorting,
-matching the rest of your setup and avoiding margin/borrow complexity).
+Strategies (any ONE firing = trade):
+  1. RSI + VWAP mean reversion  — the highest win-rate intraday setup
+       long when RSI < 35 AND price below VWAP (oversold bounce toward VWAP)
+  2. Momentum breakout          — price breaks recent high on volume
+  3. MA pullback                — uptrend + price dips to the fast MA then turns
 
-Returns a dict describing the decision so the report can explain WHY.
+Honest note: research says only 1-4% of day traders are consistently
+profitable; 72% net lose. Looser + riskier = MORE trades, bigger swings both
+ways, and more fees. Stops are kept to cap downside per trade.
 """
 
 import pandas as pd
 
-from strategies.candlesticks import BULLISH_PATTERNS
-from strategies.filters import short_trend, volume_confirms, near_vwap
+
+def rsi(series, period=14):
+    delta = series.diff()
+    gain = delta.clip(lower=0).rolling(period).mean()
+    loss = (-delta.clip(upper=0)).rolling(period).mean()
+    rs = gain / loss.replace(0, 1e-9)
+    return 100 - (100 / (1 + rs))
+
+
+def vwap_value(df):
+    if "Volume" not in df or df["Volume"].sum() == 0:
+        return float(df["Close"].iloc[-1])
+    typical = (df["High"] + df["Low"] + df["Close"]) / 3
+    return float((typical * df["Volume"]).cumsum().iloc[-1] /
+                 df["Volume"].cumsum().iloc[-1])
 
 
 def evaluate(df: pd.DataFrame) -> dict:
-    """Evaluate the latest bar. Returns:
-    {signal: 1/0, pattern: name or None, reasons: [...], blocked: [...]}"""
-    result = {"signal": 0, "pattern": None, "reasons": [], "blocked": []}
-
-    trend = short_trend(df)
-    vol_ok = volume_confirms(df)
-    vwap_ok = near_vwap(df)
-
-    # Look for any bullish pattern on the latest bar
-    found = None
-    for name, fn in BULLISH_PATTERNS.items():
-        if fn(df):
-            found = name
-            break
-
-    if not found:
-        result["blocked"].append("no bullish pattern on latest bar")
+    """Return {signal:1/0, pattern:name, reasons:[...]}. Fires if ANY setup hits."""
+    result = {"signal": 0, "pattern": None, "reasons": []}
+    if len(df) < 20:
         return result
 
-    result["pattern"] = found
+    close = df["Close"]
+    price = float(close.iloc[-1])
 
-    # Now require the confirming context
-    if trend != "down":
-        result["blocked"].append(f"trend is {trend}, need a prior downtrend to reverse")
-    else:
-        result["reasons"].append("prior downtrend present")
-
-    if not vol_ok:
-        result["blocked"].append("volume below average (no conviction)")
-    else:
-        result["reasons"].append("above-average volume")
-
-    if not vwap_ok:
-        result["blocked"].append("price not near VWAP (no key level)")
-    else:
-        result["reasons"].append("price at VWAP level")
-
-    # Fire only if ALL filters pass
-    if trend == "down" and vol_ok and vwap_ok:
+    # --- 1. RSI + VWAP mean reversion (highest win rate) ---
+    r = rsi(close).iloc[-1]
+    vw = vwap_value(df)
+    if r < 35 and price < vw:
         result["signal"] = 1
+        result["pattern"] = "RSI+VWAP reversion"
+        result["reasons"] = [f"RSI {r:.0f} oversold", "price below VWAP → bounce"]
+        return result
+
+    # --- 2. Momentum breakout (looser: 10-bar high, no VWAP requirement) ---
+    prior_high = df["High"].rolling(10).max().shift(1).iloc[-1]
+    avg_vol = df["Volume"].iloc[-11:-1].mean() if "Volume" in df else 0
+    vol_ok = ("Volume" in df) and df["Volume"].iloc[-1] >= avg_vol  # >= average, looser
+    if price > prior_high and vol_ok:
+        result["signal"] = 1
+        result["pattern"] = "Momentum breakout"
+        result["reasons"] = ["broke 10-bar high", "volume >= average"]
+        return result
+
+    # --- 3. MA pullback in uptrend ---
+    fast = close.rolling(9).mean()
+    slow = close.rolling(20).mean()
+    uptrend = fast.iloc[-1] > slow.iloc[-1]
+    dipped = price <= fast.iloc[-1] * 1.002  # near/just below fast MA
+    turning = close.iloc[-1] > close.iloc[-2]  # ticking back up
+    if uptrend and dipped and turning:
+        result["signal"] = 1
+        result["pattern"] = "MA pullback"
+        result["reasons"] = ["uptrend", "pulled back to 9MA", "turning up"]
+        return result
 
     return result
 
 
-# Watchlist: ETF equivalents of the instruments futures day-traders watch,
-# plus leveraged ETFs so the P&L reflects a futures-style leverage dynamic.
-# All trade on clean data and are things you could actually access.
-#   SPY  -> S&P 500      (like ES futures)
-#   QQQ  -> Nasdaq 100   (like NQ futures)
-#   USO  -> Crude oil    (like CL futures)
-#   GLD  -> Gold         (like GC futures)
-#   SSO  -> 2x S&P 500   (leverage dynamic)
-#   UPRO -> 3x S&P 500   (higher leverage dynamic)
-#   TQQQ -> 3x Nasdaq    (higher leverage dynamic)
-WATCHLIST = ["SPY", "QQQ", "USO", "GLD", "SSO", "UPRO", "TQQQ"]
-
-# Exit rule for open positions is handled by the engine: a hard stop-loss plus
-# a same-day time exit (intraday trades don't hold overnight).
+# Liquid names + leveraged ETFs for bigger intraday swings (higher risk).
+WATCHLIST = ["SPY", "QQQ", "AAPL", "NVDA", "TSLA", "AMD", "META",
+             "TQQQ", "SOXL", "UPRO"]
