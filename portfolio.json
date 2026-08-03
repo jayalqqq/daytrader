@@ -1,5 +1,5 @@
 {
-  "cash": 73.10396414567279,
+  "cash": 63.16264429856622,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -394,6 +394,54 @@
     },
     {
       "time": "2026-08-03T20:40:01",
+      "action": "BUY",
+      "ticker": "SSO",
+      "shares": 3,
+      "price": 68.93,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-03T21:17:59",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 757.67,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-08-03T21:17:59",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 700.08,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-08-03T21:17:59",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SSO",
+      "shares": 3,
+      "price": 68.93,
+      "pnl": 0.0
+    },
+    {
+      "time": "2026-08-03T21:17:59",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 757.67,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-03T21:18:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 700.08,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-03T21:18:00",
       "action": "BUY",
       "ticker": "SSO",
       "shares": 3,

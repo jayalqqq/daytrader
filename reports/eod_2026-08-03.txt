@@ -1,0 +1,27 @@
+🔔 END-OF-DAY REPORT · Monday, August 03
+==========================================
+💰 Account value    $10,004.48
+📈 Day's realized   +$141.12
+📊 All-time P&L     +$4.48 (+0.04%)
+
+Trades opened today:  6
+Trades closed today:  6
+Win rate today:       50%  (3W / 0L)
+Best trade:           SPY +$100.26
+Worst trade:          SPY +$0.00
+
+Today's trades:
+  SELL (TAKE-PROFIT) 11 SPY @ $755.92  (+$100.26)
+  SELL (TAKE-PROFIT) 22 SSO @ $68.62  (+$35.64)
+  SELL (TAKE-PROFIT) 1 UPRO @ $145.37  (+$5.22)
+  BUY 11 SPY @ $757.67 [ORB breakout]
+  BUY 2 QQQ @ $700.08 [ORB breakout]
+  BUY 3 SSO @ $68.93 [ORB breakout]
+  SELL (EOD-EXIT) 11 SPY @ $757.67  (+$0.00)
+  SELL (EOD-EXIT) 2 QQQ @ $700.08  (+$0.00)
+  SELL (EOD-EXIT) 3 SSO @ $68.93  (+$0.00)
+  BUY 11 SPY @ $757.67 [ORB breakout]
+  BUY 2 QQQ @ $700.08 [ORB breakout]
+  BUY 3 SSO @ $68.93 [ORB breakout]
+
+Positions still open:  3

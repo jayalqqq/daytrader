@@ -1,7 +1,7 @@
-DAY-TRADER · Monday, August 03 20:40
+DAY-TRADER · Monday, August 03 21:18
 ----------------------------------------
-Total value:   $10,014.42
-All-time P&L:  +$14.42 (+0.14%)
+Total value:   $10,004.48
+All-time P&L:  +$4.48 (+0.04%)
 Realized P&L:  +$114.10
 Closed trades: 14  |  Win rate: 43%
 Open now:      3
