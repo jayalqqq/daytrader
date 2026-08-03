@@ -1,6 +1,28 @@
 {
-  "cash": 10019.39447117616,
-  "positions": {},
+  "cash": 73.10396414567279,
+  "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 757.6699829101562,
+      "stop": 753.88,
+      "target": 765.25,
+      "pattern": "ORB breakout"
+    },
+    "QQQ": {
+      "shares": 2,
+      "entry": 700.0800170898438,
+      "stop": 696.58,
+      "target": 707.08,
+      "pattern": "ORB breakout"
+    },
+    "SSO": {
+      "shares": 3,
+      "entry": 68.93000030517578,
+      "stop": 68.59,
+      "target": 69.62,
+      "pattern": "ORB breakout"
+    }
+  },
   "history": [
     {
       "time": "2026-07-28T15:26:07",
@@ -353,6 +375,30 @@
       "shares": 1,
       "price": 145.37,
       "pnl": 5.22
+    },
+    {
+      "time": "2026-08-03T20:39:59",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 757.67,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-03T20:39:59",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 700.08,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-03T20:40:01",
+      "action": "BUY",
+      "ticker": "SSO",
+      "shares": 3,
+      "price": 68.93,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []

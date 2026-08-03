@@ -1,7 +1,10 @@
-DAY-TRADER · Monday, August 03 19:09
+DAY-TRADER · Monday, August 03 20:40
 ----------------------------------------
-Total value:   $10,019.39
-All-time P&L:  +$19.39 (+0.19%)
+Total value:   $10,014.42
+All-time P&L:  +$14.42 (+0.14%)
 Realized P&L:  +$114.10
 Closed trades: 14  |  Win rate: 43%
-Open now:      0
+Open now:      3
+  SPY: 11 sh @ $757.67 (ORB breakout), now $757.67 (+0.00)
+  QQQ: 2 sh @ $700.08 (ORB breakout), now $700.08 (+0.00)
+  SSO: 3 sh @ $68.93 (ORB breakout), now $68.93 (+0.00)
