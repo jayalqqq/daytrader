@@ -1,10 +1,10 @@
-DAY-TRADER · Tuesday, August 04 17:14
+DAY-TRADER · Tuesday, August 04 18:59
 ----------------------------------------
-Total value:   $10,129.77
-All-time P&L:  +$129.77 (+1.30%)
+Total value:   $10,144.17
+All-time P&L:  +$144.17 (+1.44%)
 Realized P&L:  +$144.56
 Closed trades: 3  |  Win rate: 100%
 Open now:      3
-  SPY: 11 sh @ $771.13 (MA pullback), now $771.15 (+0.22)
-  QQQ: 2 sh @ $721.75 (MA pullback), now $721.77 (+0.04)
-  UPRO: 1 sh @ $154.12 (ORB breakout), now $154.12 (+0.00)
+  SPY: 11 sh @ $771.13 (MA pullback), now $772.03 (+9.88)
+  QQQ: 2 sh @ $721.75 (MA pullback), now $723.88 (+4.26)
+  UPRO: 1 sh @ $154.12 (ORB breakout), now $154.65 (+0.53)
