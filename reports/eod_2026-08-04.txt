@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Tuesday, August 04
+==========================================
+💰 Account value    $10,135.09
+📈 Day's realized   +$144.56
+📊 All-time P&L     +$135.09 (+1.35%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       100%  (3W / 0L)
+Best trade:           SPY +$105.71
+Worst trade:          NVDA +$3.21
+
+Today's trades:
+  SELL (TAKE-PROFIT) 11 SPY @ $767.28  (+$105.71)
+  SELL (TAKE-PROFIT) 2 QQQ @ $717.90  (+$35.64)
+  SELL (TAKE-PROFIT) 1 NVDA @ $209.90  (+$3.21)
+  BUY 11 SPY @ $771.13 [MA pullback]
+  BUY 2 QQQ @ $721.75 [MA pullback]
+  BUY 1 UPRO @ $154.12 [ORB breakout]
+
+Positions still open:  3
