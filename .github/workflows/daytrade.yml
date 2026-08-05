@@ -35,4 +35,5 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add portfolio.json dashboard_data.js reports/ 2>/dev/null || true
           git commit -m "state update $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "nothing to commit"
-          git push || echo "nothing to push"
+          git pull --rebase --autostash origin main || true
+          git push origin main
