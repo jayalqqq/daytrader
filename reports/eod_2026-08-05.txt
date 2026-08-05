@@ -1,0 +1,18 @@
+🔔 END-OF-DAY REPORT · Wednesday, August 05
+==========================================
+💰 Account value    $10,102.87
+📈 Day's realized   $-9.94
+📊 All-time P&L     +$102.87 (+1.03%)
+
+Trades opened today:  1
+Trades closed today:  2
+Win rate today:       0%  (0W / 2L)
+Best trade:           UPRO $-0.88
+Worst trade:          QQQ $-9.06
+
+Today's trades:
+  SELL (STOP-LOSS) 2 QQQ @ $717.22  ($-9.06)
+  SELL (STOP-LOSS) 1 UPRO @ $153.24  ($-0.88)
+  BUY 4 AAPL @ $310.92 [ORB breakout]
+
+Positions still open:  2
