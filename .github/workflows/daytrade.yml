@@ -2,8 +2,8 @@ name: daytrader
 
 on:
   schedule:
-    # Every 5 min during US market hours (13:30-20:00 UTC = 9:30a-4p ET)
-    - cron: '*/5 13-20 * * 1-5'
+    # Every 15 min during US market hours (13:30-20:00 UTC = 9:30a-4p ET)
+    - cron: '*/15 13-20 * * 1-5'
     # End-of-day report once, ~10 min after close (20:10 UTC)
     - cron: '10 20 * * 1-5'
   workflow_dispatch:
