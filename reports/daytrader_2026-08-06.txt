@@ -1,0 +1,9 @@
+DAY-TRADER · Thursday, August 06 15:14
+----------------------------------------
+Total value:   $10,110.65
+All-time P&L:  +$110.65 (+1.11%)
+Realized P&L:  +$134.62
+Closed trades: 5  |  Win rate: 60%
+Open now:      2
+  SPY: 11 sh @ $771.13 (MA pullback), now $770.04 (-11.99)
+  AAPL: 4 sh @ $310.92 (ORB breakout), now $312.04 (+4.48)
