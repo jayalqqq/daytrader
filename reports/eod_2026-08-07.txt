@@ -1,14 +1,19 @@
 🔔 END-OF-DAY REPORT · Friday, August 07
 ==========================================
-💰 Account value    $10,095.52
-📈 Day's realized   +$0.00
-📊 All-time P&L     +$95.52 (+0.96%)
+💰 Account value    $10,153.47
+📈 Day's realized   +$2.40
+📊 All-time P&L     +$153.47 (+1.53%)
 
-Trades opened today:  0
-Trades closed today:  0
-No trades closed today.
+Trades opened today:  2
+Trades closed today:  2
+Win rate today:       50%  (1W / 1L)
+Best trade:           TSLA +$3.96
+Worst trade:          NVDA $-1.56
 
 Today's trades:
-  (none)
+  SELL (TAKE-PROFIT) 1 TSLA @ $323.58  (+$3.96)
+  BUY 1 NVDA @ $223.62 [MA pullback]
+  SELL (STOP-LOSS) 1 NVDA @ $222.06  ($-1.56)
+  BUY 2 SOXL @ $139.17 [MA pullback]
 
 Positions still open:  3

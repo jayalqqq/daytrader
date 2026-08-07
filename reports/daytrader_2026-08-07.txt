@@ -1,10 +1,10 @@
-DAY-TRADER · Friday, August 07 20:01
+DAY-TRADER · Friday, August 07 20:55
 ----------------------------------------
-Total value:   $10,154.38
-All-time P&L:  +$154.38 (+1.54%)
+Total value:   $10,153.47
+All-time P&L:  +$153.47 (+1.53%)
 Realized P&L:  +$137.02
 Closed trades: 7  |  Win rate: 57%
 Open now:      3
-  SPY: 11 sh @ $771.13 (MA pullback), now $773.20 (+22.77)
+  SPY: 11 sh @ $771.13 (MA pullback), now $773.12 (+21.89)
   AAPL: 4 sh @ $310.92 (ORB breakout), now $313.30 (+9.52)
-  SOXL: 2 sh @ $139.17 (MA pullback), now $140.27 (+2.21)
+  SOXL: 2 sh @ $139.17 (MA pullback), now $140.26 (+2.18)
