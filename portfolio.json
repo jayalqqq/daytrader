@@ -1,5 +1,5 @@
 {
-  "cash": 72.26999653625717,
+  "cash": 395.68331274414294,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -14,13 +14,6 @@
       "stop": 309.37,
       "target": 314.03,
       "pattern": "ORB breakout"
-    },
-    "TSLA": {
-      "shares": 1,
-      "entry": 319.6199951171875,
-      "stop": 318.02,
-      "target": 322.82,
-      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -127,6 +120,14 @@
       "shares": 1,
       "price": 319.62,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-07T10:12:17-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 323.58,
+      "pnl": 3.96
     }
   ],
   "daily_snapshots": []
