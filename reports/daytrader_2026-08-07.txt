@@ -1,10 +1,9 @@
-DAY-TRADER · Friday, August 07 16:08
+DAY-TRADER · Friday, August 07 17:07
 ----------------------------------------
-Total value:   $10,147.92
-All-time P&L:  +$147.92 (+1.48%)
-Realized P&L:  +$138.58
-Closed trades: 6  |  Win rate: 67%
-Open now:      3
-  SPY: 11 sh @ $771.13 (MA pullback), now $773.24 (+23.21)
-  AAPL: 4 sh @ $310.92 (ORB breakout), now $311.75 (+3.32)
-  NVDA: 1 sh @ $223.62 (MA pullback), now $223.32 (-0.29)
+Total value:   $10,138.35
+All-time P&L:  +$138.35 (+1.38%)
+Realized P&L:  +$137.02
+Closed trades: 7  |  Win rate: 57%
+Open now:      2
+  SPY: 11 sh @ $771.13 (MA pullback), now $772.24 (+12.21)
+  AAPL: 4 sh @ $310.92 (ORB breakout), now $312.45 (+6.12)

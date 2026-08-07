@@ -1,5 +1,5 @@
 {
-  "cash": 171.95649974823232,
+  "cash": 393.9054673080468,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -14,13 +14,6 @@
       "stop": 309.37,
       "target": 314.03,
       "pattern": "ORB breakout"
-    },
-    "NVDA": {
-      "shares": 1,
-      "entry": 223.61500549316406,
-      "stop": 222.5,
-      "target": 225.85,
-      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -143,6 +136,14 @@
       "shares": 1,
       "price": 223.62,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-07T13:07:03-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 222.06,
+      "pnl": -1.56
     }
   ],
   "daily_snapshots": []
