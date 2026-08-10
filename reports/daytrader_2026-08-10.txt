@@ -1,10 +1,10 @@
-DAY-TRADER · Monday, August 10 18:34
+DAY-TRADER · Monday, August 10 19:42
 ----------------------------------------
-Total value:   $10,108.49
-All-time P&L:  +$108.49 (+1.08%)
+Total value:   $10,112.54
+All-time P&L:  +$112.54 (+1.13%)
 Realized P&L:  +$109.86
 Closed trades: 9  |  Win rate: 44%
 Open now:      3
-  SPY: 11 sh @ $771.13 (MA pullback), now $772.59 (+16.06)
-  AAPL: 3 sh @ $306.64 (RSI+VWAP reversion), now $306.82 (+0.53)
-  SOXL: 4 sh @ $134.18 (RSI+VWAP reversion), now $134.35 (+0.66)
+  SPY: 11 sh @ $771.13 (MA pullback), now $773.00 (+20.57)
+  AAPL: 3 sh @ $306.64 (RSI+VWAP reversion), now $307.29 (+1.93)
+  SOXL: 4 sh @ $134.18 (RSI+VWAP reversion), now $133.88 (-1.20)
