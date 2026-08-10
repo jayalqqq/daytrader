@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Monday, August 10
+==========================================
+💰 Account value    $10,100.02
+📈 Day's realized   $-43.88
+📊 All-time P&L     +$100.02 (+1.00%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       0%  (0W / 3L)
+Best trade:           SOXL $-9.98
+Worst trade:          AAPL $-17.18
+
+Today's trades:
+  SELL (STOP-LOSS) 4 AAPL @ $306.62  ($-17.18)
+  BUY 3 AAPL @ $306.64 [RSI+VWAP reversion]
+  SELL (STOP-LOSS) 2 SOXL @ $134.18  ($-9.98)
+  BUY 4 SOXL @ $134.18 [RSI+VWAP reversion]
+  SELL (STOP-LOSS) 4 SOXL @ $130.00  ($-16.72)
+  BUY 2 NVDA @ $217.56 [RSI+VWAP reversion]
+
+Positions still open:  3
