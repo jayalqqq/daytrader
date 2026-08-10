@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Day-Trader Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: #0d1117;
+    color: #e6edf3;
+    padding: 24px 16px 60px;
+    max-width: 720px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  .head { display: flex; justify-content: space-between; align-items: baseline;
+    border-bottom: 1px solid #21262d; padding-bottom: 14px; margin-bottom: 20px; }
+  .head h1 { font-size: 20px; font-weight: 650; letter-spacing: -0.02em; }
+  .head .stamp { font-size: 12px; color: #7d8590; font-variant-numeric: tabular-nums; }
+
+  .hero { background: #161b22; border: 1px solid #21262d; border-radius: 14px;
+    padding: 24px; margin-bottom: 14px; }
+  .hero .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #7d8590; }
+  .hero .value { font-size: 40px; font-weight: 700; letter-spacing: -0.02em; margin: 4px 0 6px; font-variant-numeric: tabular-nums; }
+  .hero .sub { font-size: 14px; font-variant-numeric: tabular-nums; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+  .stat { background: #161b22; border: 1px solid #21262d; border-radius: 12px; padding: 16px; }
+  .stat .k { font-size: 10px; text-transform: uppercase; letter-spacing: 0.08em; color: #7d8590; }
+  .stat .v { font-size: 22px; font-weight: 650; margin-top: 3px; font-variant-numeric: tabular-nums; }
+
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: #7d8590;
+    margin: 26px 0 10px; font-weight: 600; }
+
+  .pos, .trade { background: #161b22; border: 1px solid #21262d; border-radius: 10px;
+    padding: 12px 14px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; }
+  .tkr { font-weight: 650; font-size: 15px; }
+  .meta { font-size: 12px; color: #7d8590; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .right { text-align: right; font-variant-numeric: tabular-nums; }
+  .pos-amt { font-weight: 650; font-size: 15px; }
+
+  .pos-tag { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: 20px;
+    background: #1f2937; color: #93c5fd; margin-left: 6px; vertical-align: middle; }
+
+  .green { color: #3fb950; }
+  .red { color: #f85149; }
+  .muted { color: #7d8590; }
+
+  .empty { background: #161b22; border: 1px dashed #21262d; border-radius: 10px;
+    padding: 24px; text-align: center; color: #7d8590; font-size: 14px; }
+  .loading { text-align: center; padding: 60px 20px; color: #7d8590; }
+  .refresh { background: #21262d; border: none; color: #e6edf3; font-size: 12px;
+    padding: 6px 12px; border-radius: 8px; cursor: pointer; font-family: inherit; }
+  .refresh:hover { background: #30363d; }
+  .note { margin-top: 28px; font-size: 12px; color: #7d8590; line-height: 1.5;
+    background: #161b22; border: 1px solid #21262d; border-radius: 10px; padding: 14px; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <h1>⚡ Day-Trader</h1>
+    <button class="refresh" onclick="load()">↻ Refresh</button>
+  </div>
+
+  <div id="app"><div class="loading">Loading live data…</div></div>
+
+<script>
+const INITIAL = 10000;
+const URL = "https://raw.githubusercontent.com/jayalqqq/daytrader/main/portfolio.json";
+
+function money(n){ return (n<0?"-$":"$") + Math.abs(n).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}); }
+function sign(n){ return (n>=0?"+":"") + money(n); }
+function cls(n){ return n>=0?"green":"red"; }
+
+async function load(){
+  const app = document.getElementById("app");
+  app.innerHTML = '<div class="loading">Loading live data…</div>';
+  try {
+    const res = await fetch(URL + "?t=" + Date.now());  // cache-bust
+    const s = await res.json();
+    render(s);
+  } catch(e){
+    app.innerHTML = '<div class="empty">Could not load data. Try refresh in a moment.<br><span class="muted">'+e+'</span></div>';
+  }
+}
+
+function render(s){
+  const cash = s.cash || 0;
+  const positions = s.positions || {};
+  const history = s.history || [];
+
+  // total value = cash + position value (use entry as proxy; live mark not in file)
+  let posValue = 0;
+  for (const p of Object.values(positions)) posValue += (p.entry||0) * (p.shares||0);
+  const total = cash + posValue;
+  const pnl = total - INITIAL;
+  const pnlPct = pnl / INITIAL * 100;
+
+  // realized pnl + win rate from history
+  const closed = history.filter(h => "pnl" in h);
+  const realized = closed.reduce((a,h)=>a+(h.pnl||0),0);
+  const wins = closed.filter(h => h.pnl > 0).length;
+  const losses = closed.filter(h => h.pnl < 0).length;
+  const wr = (wins+losses) ? Math.round(wins/(wins+losses)*100) : null;
+
+  let html = `
+    <div class="hero">
+      <div class="label">Total account value</div>
+      <div class="value">${money(total)}</div>
+      <div class="sub ${cls(pnl)}">${sign(pnl)} all-time (${pnlPct>=0?"+":""}${pnlPct.toFixed(2)}%)</div>
+    </div>
+    <div class="grid">
+      <div class="stat"><div class="k">Cash</div><div class="v">${money(cash)}</div></div>
+      <div class="stat"><div class="k">Realized P&L</div><div class="v ${cls(realized)}">${sign(realized)}</div></div>
+      <div class="stat"><div class="k">Win rate</div><div class="v">${wr===null?"—":wr+"%"}<span class="muted" style="font-size:13px;font-weight:400"> ${wins}W/${losses}L</span></div></div>
+      <div class="stat"><div class="k">Open positions</div><div class="v">${Object.keys(positions).length}</div></div>
+    </div>`;
+
+  // open positions
+  html += `<h2>Open Positions</h2>`;
+  if (Object.keys(positions).length){
+    for (const [t,p] of Object.entries(positions)){
+      html += `<div class="pos">
+        <div><span class="tkr">${t}</span><span class="pos-tag">${p.pattern||""}</span>
+          <div class="meta">${p.shares} sh @ $${(p.entry||0).toFixed(2)} · stop $${(p.stop||0).toFixed(2)} · target $${(p.target||0).toFixed(2)}</div></div>
+        <div class="right pos-amt muted">held</div></div>`;
+    }
+  } else {
+    html += `<div class="empty">No open positions — all cash</div>`;
+  }
+
+  // recent trades
+  html += `<h2>Recent Trades</h2>`;
+  if (history.length){
+    history.slice(-12).reverse().forEach(h=>{
+      const isSell = (h.action||"").includes("SELL");
+      const p = "pnl" in h ? h.pnl : null;
+      const time = (h.time||"").replace("T"," ").slice(0,16);
+      html += `<div class="trade">
+        <div><span class="tkr">${h.ticker}</span> <span class="muted" style="font-size:13px">${h.action}</span>
+          <div class="meta">${h.shares} sh @ $${(h.price||0).toFixed(2)} · ${time}${h.pattern?" · "+h.pattern:""}</div></div>
+        <div class="right ${p!==null?cls(p):"muted"}" style="font-weight:650">${p!==null?sign(p):""}</div></div>`;
+    });
+  } else {
+    html += `<div class="empty">No trades yet</div>`;
+  }
+
+  html += `<div class="note">Live from GitHub · paper trading only · updates when the bot runs (every 15 min during market hours). Position values use entry price; realized P&L reflects closed trades. Judge the strategy by realized P&L and win rate over many trades, not any single day.</div>`;
+
+  document.getElementById("app").innerHTML = html;
+}
+
+load();
+setInterval(load, 120000);  // auto-refresh every 2 min
+</script>
+</body>
+</html>
