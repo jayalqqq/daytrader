@@ -1,5 +1,5 @@
 {
-  "cash": 152.1555911178616,
+  "cash": 236.55803600311555,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,11 +15,11 @@
       "target": 309.71,
       "pattern": "RSI+VWAP reversion"
     },
-    "SOXL": {
-      "shares": 4,
-      "entry": 134.17999267578125,
-      "stop": 133.51,
-      "target": 135.52,
+    "NVDA": {
+      "shares": 2,
+      "entry": 217.55999755859375,
+      "stop": 216.47,
+      "target": 219.74,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -190,6 +190,22 @@
       "ticker": "SOXL",
       "shares": 4,
       "price": 134.18,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-10T16:23:54-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SOXL",
+      "shares": 4,
+      "price": 130.0,
+      "pnl": -16.72
+    },
+    {
+      "time": "2026-08-10T16:23:55-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 2,
+      "price": 217.56,
       "pattern": "RSI+VWAP reversion"
     }
   ],
