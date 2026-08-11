@@ -1,0 +1,17 @@
+🔔 END-OF-DAY REPORT · Tuesday, August 11
+==========================================
+💰 Account value    $10,060.59
+📈 Day's realized   $-11.08
+📊 All-time P&L     +$60.59 (+0.61%)
+
+Trades opened today:  1
+Trades closed today:  1
+Win rate today:       0%  (0W / 1L)
+Best trade:           AAPL $-11.08
+Worst trade:          AAPL $-11.08
+
+Today's trades:
+  SELL (STOP-LOSS) 3 AAPL @ $302.95  ($-11.08)
+  BUY 3 AAPL @ $302.95 [RSI+VWAP reversion]
+
+Positions still open:  3
