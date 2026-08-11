@@ -1,0 +1,10 @@
+DAY-TRADER · Tuesday, August 11 14:18
+----------------------------------------
+Total value:   $10,103.44
+All-time P&L:  +$103.44 (+1.03%)
+Realized P&L:  +$93.14
+Closed trades: 10  |  Win rate: 40%
+Open now:      3
+  SPY: 11 sh @ $771.13 (MA pullback), now $773.53 (+26.40)
+  AAPL: 3 sh @ $306.64 (RSI+VWAP reversion), now $306.31 (-1.00)
+  NVDA: 2 sh @ $217.56 (RSI+VWAP reversion), now $219.56 (+4.00)
