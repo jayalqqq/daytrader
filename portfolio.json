@@ -1,5 +1,5 @@
 {
-  "cash": 235.64918596649454,
+  "cash": 355.06189376068403,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -8,18 +8,18 @@
       "target": 778.84,
       "pattern": "MA pullback"
     },
-    "NVDA": {
-      "shares": 2,
-      "entry": 217.55999755859375,
-      "stop": 216.47,
-      "target": 219.74,
-      "pattern": "RSI+VWAP reversion"
-    },
     "AAPL": {
       "shares": 3,
       "entry": 302.95001220703125,
       "stop": 301.44,
       "target": 305.98,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "TSLA": {
+      "shares": 1,
+      "entry": 327.3800048828125,
+      "stop": 325.74,
+      "target": 330.65,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -222,6 +222,22 @@
       "ticker": "AAPL",
       "shares": 3,
       "price": 302.95,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-12T10:19:24-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "NVDA",
+      "shares": 2,
+      "price": 223.59,
+      "pnl": 12.06
+    },
+    {
+      "time": "2026-08-12T10:19:26-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 327.38,
       "pattern": "RSI+VWAP reversion"
     }
   ],
