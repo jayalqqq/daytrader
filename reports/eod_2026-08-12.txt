@@ -1,0 +1,26 @@
+🔔 END-OF-DAY REPORT · Wednesday, August 12
+==========================================
+💰 Account value    $10,082.51
+📈 Day's realized   +$32.14
+📊 All-time P&L     +$82.51 (+0.83%)
+
+Trades opened today:  5
+Trades closed today:  6
+Win rate today:       50%  (3W / 3L)
+Best trade:           SPY +$19.14
+Worst trade:          AAPL $-5.45
+
+Today's trades:
+  SELL (TAKE-PROFIT) 2 NVDA @ $223.59  (+$12.06)
+  BUY 1 TSLA @ $327.38 [RSI+VWAP reversion]
+  SELL (STOP-LOSS) 3 AAPL @ $301.13  ($-5.45)
+  SELL (STOP-LOSS) 1 TSLA @ $324.45  ($-2.93)
+  BUY 4 TSLA @ $324.43 [RSI+VWAP reversion]
+  BUY 1 SOXL @ $145.90 [MA pullback]
+  SELL (EOD-EXIT) 11 SPY @ $772.87  (+$19.14)
+  SELL (EOD-EXIT) 4 TSLA @ $327.47  (+$12.16)
+  SELL (STOP-LOSS) 1 SOXL @ $143.06  ($-2.84)
+  BUY 30 AAPL @ $302.23 [Momentum breakout]
+  BUY 4 NVDA @ $224.13 [Momentum breakout]
+
+Positions still open:  2
