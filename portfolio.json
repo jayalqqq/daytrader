@@ -1,5 +1,5 @@
 {
-  "cash": 355.06189376068403,
+  "cash": 283.9340245437652,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -8,18 +8,11 @@
       "target": 778.84,
       "pattern": "MA pullback"
     },
-    "AAPL": {
-      "shares": 3,
-      "entry": 302.95001220703125,
-      "stop": 301.44,
-      "target": 305.98,
-      "pattern": "RSI+VWAP reversion"
-    },
     "TSLA": {
-      "shares": 1,
-      "entry": 327.3800048828125,
-      "stop": 325.74,
-      "target": 330.65,
+      "shares": 4,
+      "entry": 324.42999267578125,
+      "stop": 322.81,
+      "target": 327.67,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -238,6 +231,30 @@
       "ticker": "TSLA",
       "shares": 1,
       "price": 327.38,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-12T11:29:04-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 3,
+      "price": 301.13,
+      "pnl": -5.45
+    },
+    {
+      "time": "2026-08-12T11:29:04-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 324.45,
+      "pnl": -2.93
+    },
+    {
+      "time": "2026-08-12T11:29:06-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 4,
+      "price": 324.43,
       "pattern": "RSI+VWAP reversion"
     }
   ],
