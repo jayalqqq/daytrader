@@ -1,9 +1,10 @@
-DAY-TRADER · Wednesday, August 12 17:31
+DAY-TRADER · Wednesday, August 12 18:36
 ----------------------------------------
-Total value:   $10,089.20
-All-time P&L:  +$89.20 (+0.89%)
+Total value:   $10,098.57
+All-time P&L:  +$98.57 (+0.99%)
 Realized P&L:  +$85.74
 Closed trades: 14  |  Win rate: 36%
-Open now:      2
-  SPY: 11 sh @ $771.13 (MA pullback), now $772.81 (+18.48)
-  TSLA: 4 sh @ $324.43 (RSI+VWAP reversion), now $326.09 (+6.64)
+Open now:      3
+  SPY: 11 sh @ $771.13 (MA pullback), now $773.45 (+25.54)
+  TSLA: 4 sh @ $324.43 (RSI+VWAP reversion), now $326.69 (+9.04)
+  SOXL: 1 sh @ $145.90 (MA pullback), now $145.87 (-0.03)
