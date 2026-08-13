@@ -1,9 +1,9 @@
-DAY-TRADER · Thursday, August 13 16:35
+DAY-TRADER · Thursday, August 13 17:42
 ----------------------------------------
-Total value:   $10,117.26
-All-time P&L:  +$117.26 (+1.17%)
+Total value:   $10,123.84
+All-time P&L:  +$123.84 (+1.24%)
 Realized P&L:  +$114.20
 Closed trades: 17  |  Win rate: 41%
 Open now:      2
-  AAPL: 30 sh @ $302.23 (Momentum breakout), now $303.21 (+29.55)
-  NVDA: 4 sh @ $224.13 (Momentum breakout), now $225.43 (+5.20)
+  AAPL: 30 sh @ $302.23 (Momentum breakout), now $303.41 (+35.55)
+  NVDA: 4 sh @ $224.13 (Momentum breakout), now $225.57 (+5.78)
