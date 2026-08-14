@@ -1,10 +1,7 @@
-DAY-TRADER · Friday, August 14 19:13
+DAY-TRADER · Friday, August 14 19:57
 ----------------------------------------
-Total value:   $10,150.84
-All-time P&L:  +$150.84 (+1.51%)
-Realized P&L:  +$207.05
-Closed trades: 18  |  Win rate: 44%
-Open now:      3
-  NVDA: 4 sh @ $224.13 (Momentum breakout), now $224.90 (+3.08)
-  SPY: 10 sh @ $777.78 (MA pullback), now $776.15 (-16.30)
-  QQQ: 1 sh @ $732.06 (ORB breakout), now $729.59 (-2.47)
+Total value:   $10,146.03
+All-time P&L:  +$146.03 (+1.46%)
+Realized P&L:  +$191.25
+Closed trades: 21  |  Win rate: 43%
+Open now:      0
