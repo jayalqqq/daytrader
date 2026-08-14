@@ -1,6 +1,28 @@
 {
-  "cash": 10146.032228721624,
-  "positions": {},
+  "cash": 186.0648656234797,
+  "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 776.2999877929688,
+      "stop": 772.42,
+      "target": 784.06,
+      "pattern": "MA pullback"
+    },
+    "QQQ": {
+      "shares": 1,
+      "entry": 731.0499877929688,
+      "stop": 727.39,
+      "target": 738.36,
+      "pattern": "Momentum breakout"
+    },
+    "TSLA": {
+      "shares": 2,
+      "entry": 342.32000732421875,
+      "stop": 340.61,
+      "target": 345.74,
+      "pattern": "MA pullback"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -337,6 +359,30 @@
       "shares": 1,
       "price": 730.34,
       "pnl": -1.72
+    },
+    {
+      "time": "2026-08-14T16:34:59-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 776.3,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-14T16:35:00-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 731.05,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-08-14T16:35:00-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 342.32,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
