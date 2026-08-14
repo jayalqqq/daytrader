@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Friday, August 14
+==========================================
+💰 Account value    $10,141.05
+📈 Day's realized   $-15.80
+📊 All-time P&L     +$141.05 (+1.41%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       33%  (1W / 2L)
+Best trade:           NVDA +$3.52
+Worst trade:          SPY $-17.60
+
+Today's trades:
+  SELL (EOD-EXIT) 4 NVDA @ $225.01  (+$3.52)
+  SELL (EOD-EXIT) 10 SPY @ $776.02  ($-17.60)
+  SELL (EOD-EXIT) 1 QQQ @ $730.34  ($-1.72)
+  BUY 11 SPY @ $776.30 [MA pullback]
+  BUY 1 QQQ @ $731.05 [Momentum breakout]
+  BUY 2 TSLA @ $342.32 [MA pullback]
+
+Positions still open:  3
