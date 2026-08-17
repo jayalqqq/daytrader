@@ -1,0 +1,27 @@
+🔔 END-OF-DAY REPORT · Monday, August 17
+==========================================
+💰 Account value    $10,084.23
+📈 Day's realized   $-45.05
+📊 All-time P&L     +$84.23 (+0.84%)
+
+Trades opened today:  6
+Trades closed today:  6
+Win rate today:       17%  (1W / 5L)
+Best trade:           AMD +$5.14
+Worst trade:          SPY $-37.67
+
+Today's trades:
+  SELL (STOP-LOSS) 2 TSLA @ $338.73  ($-7.18)
+  BUY 2 AAPL @ $306.21 [MA pullback]
+  SELL (STOP-LOSS) 2 AAPL @ $304.54  ($-3.34)
+  BUY 1 AMD @ $510.85 [MA pullback]
+  SELL (TAKE-PROFIT) 1 AMD @ $515.99  (+$5.14)
+  BUY 2 TSLA @ $339.86 [MA pullback]
+  SELL (EOD-EXIT) 11 SPY @ $772.88  ($-37.67)
+  SELL (EOD-EXIT) 1 QQQ @ $730.03  ($-1.02)
+  SELL (EOD-EXIT) 2 TSLA @ $339.37  ($-0.98)
+  BUY 11 SPY @ $772.68 [RSI+VWAP reversion]
+  BUY 4 AAPL @ $305.69 [MA pullback]
+  BUY 2 UPRO @ $154.40 [RSI+VWAP reversion]
+
+Positions still open:  3
