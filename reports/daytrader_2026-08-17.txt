@@ -1,10 +1,10 @@
-DAY-TRADER · Monday, August 17 15:04
+DAY-TRADER · Monday, August 17 15:38
 ----------------------------------------
-Total value:   $10,127.55
-All-time P&L:  +$127.55 (+1.28%)
-Realized P&L:  +$180.73
-Closed trades: 23  |  Win rate: 39%
+Total value:   $10,122.86
+All-time P&L:  +$122.86 (+1.23%)
+Realized P&L:  +$185.87
+Closed trades: 24  |  Win rate: 42%
 Open now:      3
-  SPY: 11 sh @ $776.30 (MA pullback), now $775.52 (-8.58)
-  QQQ: 1 sh @ $731.05 (Momentum breakout), now $734.22 (+3.17)
-  AMD: 1 sh @ $510.85 (MA pullback), now $514.48 (+3.63)
+  SPY: 11 sh @ $776.30 (MA pullback), now $775.08 (-13.42)
+  QQQ: 1 sh @ $731.05 (Momentum breakout), now $733.46 (+2.41)
+  TSLA: 2 sh @ $339.86 (MA pullback), now $339.86 (+0.00)

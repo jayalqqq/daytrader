@@ -1,5 +1,5 @@
 {
-  "cash": 348.1304075851497,
+  "cash": 183.8025721359311,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,11 +15,11 @@
       "target": 738.36,
       "pattern": "Momentum breakout"
     },
-    "AMD": {
-      "shares": 1,
-      "entry": 510.849609375,
-      "stop": 508.3,
-      "target": 515.96,
+    "TSLA": {
+      "shares": 2,
+      "entry": 339.8599853515625,
+      "stop": 338.16,
+      "target": 343.26,
       "pattern": "MA pullback"
     }
   },
@@ -414,6 +414,22 @@
       "ticker": "AMD",
       "shares": 1,
       "price": 510.85,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-17T11:38:48-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 515.99,
+      "pnl": 5.14
+    },
+    {
+      "time": "2026-08-17T11:38:50-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 339.86,
       "pattern": "MA pullback"
     }
   ],
