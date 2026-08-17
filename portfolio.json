@@ -1,6 +1,28 @@
 {
-  "cash": 10089.247335533148,
-  "positions": {},
+  "cash": 53.19189858246506,
+  "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 772.6799926757812,
+      "stop": 768.82,
+      "target": 780.41,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "AAPL": {
+      "shares": 4,
+      "entry": 305.69000244140625,
+      "stop": 304.16,
+      "target": 308.75,
+      "pattern": "MA pullback"
+    },
+    "UPRO": {
+      "shares": 2,
+      "entry": 154.39999389648438,
+      "stop": 153.63,
+      "target": 155.94,
+      "pattern": "RSI+VWAP reversion"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -433,6 +455,30 @@
       "shares": 2,
       "price": 339.37,
       "pnl": -0.98
+    },
+    {
+      "time": "2026-08-17T16:35:24-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 772.68,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-17T16:35:25-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 305.69,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-17T16:35:28-04:00",
+      "action": "BUY",
+      "ticker": "UPRO",
+      "shares": 2,
+      "price": 154.4,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []

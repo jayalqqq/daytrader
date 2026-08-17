@@ -1,7 +1,10 @@
-DAY-TRADER · Monday, August 17 19:59
+DAY-TRADER · Monday, August 17 20:35
 ----------------------------------------
-Total value:   $10,089.25
-All-time P&L:  +$89.25 (+0.89%)
+Total value:   $10,084.23
+All-time P&L:  +$84.23 (+0.84%)
 Realized P&L:  +$146.20
 Closed trades: 27  |  Win rate: 37%
-Open now:      0
+Open now:      3
+  SPY: 11 sh @ $772.68 (RSI+VWAP reversion), now $772.68 (+0.00)
+  AAPL: 4 sh @ $305.69 (MA pullback), now $305.69 (+0.00)
+  UPRO: 2 sh @ $154.40 (RSI+VWAP reversion), now $154.40 (+0.00)
