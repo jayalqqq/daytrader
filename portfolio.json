@@ -1,5 +1,5 @@
 {
-  "cash": 186.0648656234797,
+  "cash": 250.45996468353837,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,11 +15,11 @@
       "target": 738.36,
       "pattern": "Momentum breakout"
     },
-    "TSLA": {
+    "AAPL": {
       "shares": 2,
-      "entry": 342.32000732421875,
-      "stop": 340.61,
-      "target": 345.74,
+      "entry": 306.2099914550781,
+      "stop": 304.68,
+      "target": 309.27,
       "pattern": "MA pullback"
     }
   },
@@ -382,6 +382,22 @@
       "ticker": "TSLA",
       "shares": 2,
       "price": 342.32,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-17T09:37:32-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 338.73,
+      "pnl": -7.18
+    },
+    {
+      "time": "2026-08-17T09:37:32-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 306.21,
       "pattern": "MA pullback"
     }
   ],
