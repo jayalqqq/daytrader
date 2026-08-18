@@ -1,0 +1,29 @@
+🔔 END-OF-DAY REPORT · Tuesday, August 18
+==========================================
+💰 Account value    $10,019.29
+📈 Day's realized   $-45.02
+📊 All-time P&L     +$19.29 (+0.19%)
+
+Trades opened today:  7
+Trades closed today:  7
+Win rate today:       29%  (2W / 5L)
+Best trade:           AAPL +$15.60
+Worst trade:          SPY $-46.97
+
+Today's trades:
+  SELL (STOP-LOSS) 2 UPRO @ $152.16  ($-4.48)
+  BUY 1 NVDA @ $220.85 [RSI+VWAP reversion]
+  SELL (STOP-LOSS) 11 SPY @ $768.41  ($-46.97)
+  SELL (TAKE-PROFIT) 4 AAPL @ $309.59  (+$15.60)
+  SELL (STOP-LOSS) 1 NVDA @ $219.25  ($-1.60)
+  BUY 11 SPY @ $768.39 [RSI+VWAP reversion]
+  BUY 1 QQQ @ $718.28 [RSI+VWAP reversion]
+  BUY 3 NVDA @ $219.29 [RSI+VWAP reversion]
+  SELL (EOD-EXIT) 11 SPY @ $767.72  ($-7.32)
+  SELL (EOD-EXIT) 1 QQQ @ $717.71  ($-0.58)
+  SELL (EOD-EXIT) 3 NVDA @ $219.40  (+$0.33)
+  BUY 11 SPY @ $767.39 [RSI+VWAP reversion]
+  BUY 1 QQQ @ $717.59 [MA pullback]
+  BUY 2 AAPL @ $310.20 [ORB breakout]
+
+Positions still open:  3
