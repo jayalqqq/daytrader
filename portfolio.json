@@ -1,5 +1,5 @@
 {
-  "cash": 53.19189858246506,
+  "cash": 136.39931479645432,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,11 +15,11 @@
       "target": 308.75,
       "pattern": "MA pullback"
     },
-    "UPRO": {
-      "shares": 2,
-      "entry": 154.39999389648438,
-      "stop": 153.63,
-      "target": 155.94,
+    "NVDA": {
+      "shares": 1,
+      "entry": 220.85000610351562,
+      "stop": 219.75,
+      "target": 223.06,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -478,6 +478,22 @@
       "ticker": "UPRO",
       "shares": 2,
       "price": 154.4,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-18T09:40:06-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "UPRO",
+      "shares": 2,
+      "price": 152.16,
+      "pnl": -4.48
+    },
+    {
+      "time": "2026-08-18T09:40:07-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 220.85,
       "pattern": "RSI+VWAP reversion"
     }
   ],
