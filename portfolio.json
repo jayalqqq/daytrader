@@ -1,25 +1,25 @@
 {
-  "cash": 136.39931479645432,
+  "cash": 208.2101953430265,
   "positions": {
     "SPY": {
       "shares": 11,
-      "entry": 772.6799926757812,
-      "stop": 768.82,
-      "target": 780.41,
+      "entry": 768.3900146484375,
+      "stop": 764.55,
+      "target": 776.07,
       "pattern": "RSI+VWAP reversion"
     },
-    "AAPL": {
-      "shares": 4,
-      "entry": 305.69000244140625,
-      "stop": 304.16,
-      "target": 308.75,
-      "pattern": "MA pullback"
+    "QQQ": {
+      "shares": 1,
+      "entry": 718.280029296875,
+      "stop": 714.69,
+      "target": 725.46,
+      "pattern": "RSI+VWAP reversion"
     },
     "NVDA": {
-      "shares": 1,
-      "entry": 220.85000610351562,
-      "stop": 219.75,
-      "target": 223.06,
+      "shares": 3,
+      "entry": 219.28990173339844,
+      "stop": 218.19,
+      "target": 221.48,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -494,6 +494,54 @@
       "ticker": "NVDA",
       "shares": 1,
       "price": 220.85,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-18T10:16:31-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 768.41,
+      "pnl": -46.97
+    },
+    {
+      "time": "2026-08-18T10:16:31-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 309.59,
+      "pnl": 15.6
+    },
+    {
+      "time": "2026-08-18T10:16:31-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 219.25,
+      "pnl": -1.6
+    },
+    {
+      "time": "2026-08-18T10:16:31-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 768.39,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-18T10:16:32-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 718.28,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-18T10:16:32-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 3,
+      "price": 219.29,
       "pattern": "RSI+VWAP reversion"
     }
   ],
