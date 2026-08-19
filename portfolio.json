@@ -1,5 +1,5 @@
 {
-  "cash": 240.00963319398068,
+  "cash": 409.1445927429309,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,12 +15,12 @@
       "target": 724.77,
       "pattern": "MA pullback"
     },
-    "AAPL": {
-      "shares": 2,
-      "entry": 310.20001220703125,
-      "stop": 308.65,
-      "target": 313.3,
-      "pattern": "ORB breakout"
+    "AMD": {
+      "shares": 1,
+      "entry": 465.1650085449219,
+      "stop": 462.84,
+      "target": 469.82,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -591,6 +591,22 @@
       "shares": 2,
       "price": 310.2,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-19T10:18:04-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 317.42,
+      "pnl": 14.45
+    },
+    {
+      "time": "2026-08-19T10:18:05-04:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 465.17,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
