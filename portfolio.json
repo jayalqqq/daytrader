@@ -1,28 +1,6 @@
 {
-  "cash": 409.1445927429309,
-  "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 767.3900146484375,
-      "stop": 763.55,
-      "target": 775.06,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "QQQ": {
-      "shares": 1,
-      "entry": 717.5900268554688,
-      "stop": 714.0,
-      "target": 724.77,
-      "pattern": "MA pullback"
-    },
-    "AMD": {
-      "shares": 1,
-      "entry": 465.1650085449219,
-      "stop": 462.84,
-      "target": 469.82,
-      "pattern": "RSI+VWAP reversion"
-    }
-  },
+  "cash": 10045.648789932262,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -607,6 +585,30 @@
       "shares": 1,
       "price": 465.17,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-19T15:59:30-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 768.98,
+      "pnl": 17.54
+    },
+    {
+      "time": "2026-08-19T15:59:31-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 716.09,
+      "pnl": -1.5
+    },
+    {
+      "time": "2026-08-19T15:59:31-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 466.4,
+      "pnl": 1.23
     }
   ],
   "daily_snapshots": []
