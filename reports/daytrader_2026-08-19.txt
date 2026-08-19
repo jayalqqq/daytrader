@@ -1,7 +1,10 @@
-DAY-TRADER · Wednesday, August 19 19:59
+DAY-TRADER · Wednesday, August 19 20:37
 ----------------------------------------
-Total value:   $10,045.65
-All-time P&L:  +$45.65 (+0.46%)
+Total value:   $10,040.66
+All-time P&L:  +$40.66 (+0.41%)
 Realized P&L:  +$132.90
 Closed trades: 38  |  Win rate: 39%
-Open now:      0
+Open now:      3
+  NVDA: 41 sh @ $217.65 (RSI+VWAP reversion), now $217.65 (+0.00)
+  TSLA: 2 sh @ $351.11 (Momentum breakout), now $351.11 (+0.00)
+  SOXL: 3 sh @ $120.56 (MA pullback), now $120.56 (+0.00)

@@ -1,6 +1,28 @@
 {
-  "cash": 10045.648789932262,
-  "positions": {},
+  "cash": 53.10505767823412,
+  "positions": {
+    "NVDA": {
+      "shares": 41,
+      "entry": 217.64999389648438,
+      "stop": 216.56,
+      "target": 219.83,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "TSLA": {
+      "shares": 2,
+      "entry": 351.110107421875,
+      "stop": 349.35,
+      "target": 354.62,
+      "pattern": "Momentum breakout"
+    },
+    "SOXL": {
+      "shares": 3,
+      "entry": 120.55999755859375,
+      "stop": 119.96,
+      "target": 121.77,
+      "pattern": "MA pullback"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -609,6 +631,30 @@
       "shares": 1,
       "price": 466.4,
       "pnl": 1.23
+    },
+    {
+      "time": "2026-08-19T16:37:27-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 41,
+      "price": 217.65,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-19T16:37:27-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 351.11,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-08-19T16:37:28-04:00",
+      "action": "BUY",
+      "ticker": "SOXL",
+      "shares": 3,
+      "price": 120.56,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
