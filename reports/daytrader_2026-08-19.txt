@@ -1,10 +1,10 @@
-DAY-TRADER · Wednesday, August 19 16:28
+DAY-TRADER · Wednesday, August 19 16:57
 ----------------------------------------
-Total value:   $10,076.41
-All-time P&L:  +$76.41 (+0.76%)
+Total value:   $10,060.32
+All-time P&L:  +$60.32 (+0.60%)
 Realized P&L:  +$115.63
 Closed trades: 35  |  Win rate: 37%
 Open now:      3
-  SPY: 11 sh @ $767.39 (RSI+VWAP reversion), now $771.13 (+41.14)
-  QQQ: 1 sh @ $717.59 (MA pullback), now $718.55 (+0.96)
-  AMD: 1 sh @ $465.17 (RSI+VWAP reversion), now $466.29 (+1.12)
+  SPY: 11 sh @ $767.39 (RSI+VWAP reversion), now $769.70 (+25.41)
+  QQQ: 1 sh @ $717.59 (MA pullback), now $717.08 (-0.51)
+  AMD: 1 sh @ $465.17 (RSI+VWAP reversion), now $467.39 (+2.23)
