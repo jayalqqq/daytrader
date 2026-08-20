@@ -1,28 +1,6 @@
 {
-  "cash": 508.4136160698064,
-  "positions": {
-    "NVDA": {
-      "shares": 38,
-      "entry": 216.00999450683594,
-      "stop": 214.93,
-      "target": 218.17,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "AMD": {
-      "shares": 1,
-      "entry": 462.26470947265625,
-      "stop": 459.95,
-      "target": 466.89,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "SPY": {
-      "shares": 1,
-      "entry": 763.4000244140625,
-      "stop": 759.58,
-      "target": 771.03,
-      "pattern": "RSI+VWAP reversion"
-    }
-  },
+  "cash": 9962.439395961776,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -751,6 +729,30 @@
       "shares": 1,
       "price": 763.4,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-20T15:55:10-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "NVDA",
+      "shares": 38,
+      "price": 216.52,
+      "pnl": 19.38
+    },
+    {
+      "time": "2026-08-20T15:55:10-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 468.19,
+      "pnl": 5.93
+    },
+    {
+      "time": "2026-08-20T15:55:11-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 762.8,
+      "pnl": -0.6
     }
   ],
   "daily_snapshots": []

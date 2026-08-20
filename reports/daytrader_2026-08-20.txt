@@ -1,10 +1,7 @@
-DAY-TRADER · Thursday, August 20 19:18
+DAY-TRADER · Thursday, August 20 19:55
 ----------------------------------------
-Total value:   $9,977.67
-All-time P&L:  $-22.33 (-0.22%)
-Realized P&L:  +$45.71
-Closed trades: 44  |  Win rate: 36%
-Open now:      3
-  NVDA: 38 sh @ $216.01 (RSI+VWAP reversion), now $216.87 (+32.68)
-  AMD: 1 sh @ $462.26 (RSI+VWAP reversion), now $464.67 (+2.41)
-  SPY: 1 sh @ $763.40 (RSI+VWAP reversion), now $763.53 (+0.13)
+Total value:   $9,962.44
+All-time P&L:  $-37.56 (-0.38%)
+Realized P&L:  +$70.42
+Closed trades: 47  |  Win rate: 38%
+Open now:      0
