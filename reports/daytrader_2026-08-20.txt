@@ -1,7 +1,9 @@
-DAY-TRADER · Thursday, August 20 19:55
+DAY-TRADER · Thursday, August 20 20:25
 ----------------------------------------
-Total value:   $9,962.44
-All-time P&L:  $-37.56 (-0.38%)
+Total value:   $9,957.55
+All-time P&L:  $-42.45 (-0.42%)
 Realized P&L:  +$70.42
 Closed trades: 47  |  Win rate: 38%
-Open now:      0
+Open now:      2
+  QQQ: 12 sh @ $710.95 (MA pullback), now $710.95 (+0.00)
+  AAPL: 4 sh @ $311.34 (RSI+VWAP reversion), now $311.34 (+0.00)

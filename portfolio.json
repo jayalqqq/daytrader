@@ -1,6 +1,21 @@
 {
-  "cash": 9962.439395961776,
-  "positions": {},
+  "cash": 180.7908840599207,
+  "positions": {
+    "QQQ": {
+      "shares": 12,
+      "entry": 710.9500122070312,
+      "stop": 707.4,
+      "target": 718.06,
+      "pattern": "MA pullback"
+    },
+    "AAPL": {
+      "shares": 4,
+      "entry": 311.3399963378906,
+      "stop": 309.78,
+      "target": 314.45,
+      "pattern": "RSI+VWAP reversion"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -753,6 +768,22 @@
       "shares": 1,
       "price": 762.8,
       "pnl": -0.6
+    },
+    {
+      "time": "2026-08-20T16:25:12-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 12,
+      "price": 710.95,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-20T16:25:13-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 311.34,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
