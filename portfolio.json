@@ -1,13 +1,6 @@
 {
-  "cash": 509.2070303764469,
+  "cash": 508.4136160698064,
   "positions": {
-    "SPY": {
-      "shares": 1,
-      "entry": 767.5900268554688,
-      "stop": 763.75,
-      "target": 775.27,
-      "pattern": "RSI+VWAP reversion"
-    },
     "NVDA": {
       "shares": 38,
       "entry": 216.00999450683594,
@@ -20,6 +13,13 @@
       "entry": 462.26470947265625,
       "stop": 459.95,
       "target": 466.89,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "SPY": {
+      "shares": 1,
+      "entry": 763.4000244140625,
+      "stop": 759.58,
+      "target": 771.03,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -734,6 +734,22 @@
       "ticker": "AMD",
       "shares": 1,
       "price": 462.26,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-20T14:35:46-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 763.37,
+      "pnl": -4.22
+    },
+    {
+      "time": "2026-08-20T14:35:47-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 763.4,
       "pattern": "RSI+VWAP reversion"
     }
   ],
