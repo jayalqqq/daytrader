@@ -1,13 +1,6 @@
 {
-  "cash": 49.71163695908746,
+  "cash": 509.2070303764469,
   "positions": {
-    "NVDA": {
-      "shares": 41,
-      "entry": 217.64999389648438,
-      "stop": 216.56,
-      "target": 219.83,
-      "pattern": "RSI+VWAP reversion"
-    },
     "SPY": {
       "shares": 1,
       "entry": 767.5900268554688,
@@ -15,11 +8,18 @@
       "target": 775.27,
       "pattern": "RSI+VWAP reversion"
     },
-    "TQQQ": {
-      "shares": 4,
-      "entry": 70.9749984741211,
-      "stop": 70.62,
-      "target": 71.68,
+    "NVDA": {
+      "shares": 38,
+      "entry": 216.00999450683594,
+      "stop": 214.93,
+      "target": 218.17,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "AMD": {
+      "shares": 1,
+      "entry": 462.26470947265625,
+      "stop": 459.95,
+      "target": 466.89,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -702,6 +702,38 @@
       "ticker": "TQQQ",
       "shares": 4,
       "price": 70.97,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-20T11:48:44-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 41,
+      "price": 216.02,
+      "pnl": -66.62
+    },
+    {
+      "time": "2026-08-20T11:48:45-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 4,
+      "price": 70.5,
+      "pnl": -1.88
+    },
+    {
+      "time": "2026-08-20T11:48:46-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 38,
+      "price": 216.01,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-20T11:48:47-04:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 462.26,
       "pattern": "RSI+VWAP reversion"
     }
   ],
