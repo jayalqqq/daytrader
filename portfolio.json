@@ -1,5 +1,5 @@
 {
-  "cash": 53.10505767823412,
+  "cash": 50.17543963242724,
   "positions": {
     "NVDA": {
       "shares": 41,
@@ -8,19 +8,19 @@
       "target": 219.83,
       "pattern": "RSI+VWAP reversion"
     },
-    "TSLA": {
-      "shares": 2,
-      "entry": 351.110107421875,
-      "stop": 349.35,
-      "target": 354.62,
-      "pattern": "Momentum breakout"
+    "SPY": {
+      "shares": 1,
+      "entry": 767.5900268554688,
+      "stop": 763.75,
+      "target": 775.27,
+      "pattern": "RSI+VWAP reversion"
     },
-    "SOXL": {
-      "shares": 3,
-      "entry": 120.55999755859375,
-      "stop": 119.96,
-      "target": 121.77,
-      "pattern": "MA pullback"
+    "TQQQ": {
+      "shares": 4,
+      "entry": 71.48999786376953,
+      "stop": 71.13,
+      "target": 72.2,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -655,6 +655,38 @@
       "shares": 3,
       "price": 120.56,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-20T09:43:47-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 343.17,
+      "pnl": -15.89
+    },
+    {
+      "time": "2026-08-20T09:43:47-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SOXL",
+      "shares": 3,
+      "price": 121.78,
+      "pnl": 3.66
+    },
+    {
+      "time": "2026-08-20T09:43:48-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 767.59,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-20T09:43:49-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 4,
+      "price": 71.49,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
