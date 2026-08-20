@@ -1,5 +1,5 @@
 {
-  "cash": 50.17543963242724,
+  "cash": 49.71163695908746,
   "positions": {
     "NVDA": {
       "shares": 41,
@@ -17,9 +17,9 @@
     },
     "TQQQ": {
       "shares": 4,
-      "entry": 71.48999786376953,
-      "stop": 71.13,
-      "target": 72.2,
+      "entry": 70.9749984741211,
+      "stop": 70.62,
+      "target": 71.68,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -686,6 +686,22 @@
       "ticker": "TQQQ",
       "shares": 4,
       "price": 71.49,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-20T10:21:20-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 4,
+      "price": 70.93,
+      "pnl": -2.24
+    },
+    {
+      "time": "2026-08-20T10:21:23-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 4,
+      "price": 70.97,
       "pattern": "RSI+VWAP reversion"
     }
   ],
