@@ -1,6 +1,21 @@
 {
-  "cash": 9971.019550258652,
-  "positions": {},
+  "cash": 171.69128920366006,
+  "positions": {
+    "TSLA": {
+      "shares": 24,
+      "entry": 362.8800048828125,
+      "stop": 361.07,
+      "target": 366.51,
+      "pattern": "ORB breakout"
+    },
+    "SOXL": {
+      "shares": 9,
+      "entry": 120.59010314941406,
+      "stop": 119.99,
+      "target": 121.8,
+      "pattern": "MA pullback"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -817,6 +832,22 @@
       "shares": 1,
       "price": 309.83,
       "pnl": 1.54
+    },
+    {
+      "time": "2026-08-21T16:28:09-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 24,
+      "price": 362.88,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-21T16:28:10-04:00",
+      "action": "BUY",
+      "ticker": "SOXL",
+      "shares": 9,
+      "price": 120.59,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []

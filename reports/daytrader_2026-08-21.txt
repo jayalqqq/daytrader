@@ -1,7 +1,9 @@
-DAY-TRADER · Friday, August 21 19:57
+DAY-TRADER · Friday, August 21 20:28
 ----------------------------------------
-Total value:   $9,971.02
-All-time P&L:  $-28.98 (-0.29%)
+Total value:   $9,966.12
+All-time P&L:  $-33.88 (-0.34%)
 Realized P&L:  +$89.86
 Closed trades: 51  |  Win rate: 41%
-Open now:      0
+Open now:      2
+  TSLA: 24 sh @ $362.88 (ORB breakout), now $362.88 (+0.00)
+  SOXL: 9 sh @ $120.59 (MA pullback), now $120.59 (+0.00)
