@@ -1,0 +1,23 @@
+🔔 END-OF-DAY REPORT · Friday, August 21
+==========================================
+💰 Account value    $9,966.12
+📈 Day's realized   +$19.44
+📊 All-time P&L     $-33.88 (-0.34%)
+
+Trades opened today:  4
+Trades closed today:  4
+Win rate today:       75%  (3W / 1L)
+Best trade:           QQQ +$29.34
+Worst trade:          AAPL $-12.20
+
+Today's trades:
+  SELL (STOP-LOSS) 4 AAPL @ $308.29  ($-12.20)
+  BUY 1 SPY @ $765.20 [MA pullback]
+  BUY 1 AAPL @ $308.29 [RSI+VWAP reversion]
+  SELL (EOD-EXIT) 12 QQQ @ $713.40  (+$29.34)
+  SELL (EOD-EXIT) 1 SPY @ $765.96  (+$0.76)
+  SELL (EOD-EXIT) 1 AAPL @ $309.83  (+$1.54)
+  BUY 24 TSLA @ $362.88 [ORB breakout]
+  BUY 9 SOXL @ $120.59 [MA pullback]
+
+Positions still open:  2
