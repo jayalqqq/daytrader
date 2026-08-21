@@ -1,5 +1,5 @@
 {
-  "cash": 180.7908840599207,
+  "cash": 339.30757246018936,
   "positions": {
     "QQQ": {
       "shares": 12,
@@ -8,11 +8,18 @@
       "target": 718.06,
       "pattern": "MA pullback"
     },
+    "SPY": {
+      "shares": 1,
+      "entry": 765.2000122070312,
+      "stop": 761.37,
+      "target": 772.85,
+      "pattern": "MA pullback"
+    },
     "AAPL": {
-      "shares": 4,
-      "entry": 311.3399963378906,
-      "stop": 309.78,
-      "target": 314.45,
+      "shares": 1,
+      "entry": 308.2900085449219,
+      "stop": 306.75,
+      "target": 311.37,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -783,6 +790,30 @@
       "ticker": "AAPL",
       "shares": 4,
       "price": 311.34,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-21T09:42:43-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 308.29,
+      "pnl": -12.2
+    },
+    {
+      "time": "2026-08-21T09:42:43-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 765.2,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-21T09:42:44-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 1,
+      "price": 308.29,
       "pattern": "RSI+VWAP reversion"
     }
   ],
