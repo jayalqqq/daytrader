@@ -1,0 +1,26 @@
+🔔 END-OF-DAY REPORT · Monday, August 24
+==========================================
+💰 Account value    $9,607.52
+📈 Day's realized   $-339.65
+📊 All-time P&L     $-392.48 (-3.92%)
+
+Trades opened today:  6
+Trades closed today:  5
+Win rate today:       40%  (2W / 3L)
+Best trade:           SPY +$5.83
+Worst trade:          TSLA $-231.36
+
+Today's trades:
+  SELL (STOP-LOSS) 24 TSLA @ $353.24  ($-231.36)
+  SELL (STOP-LOSS) 9 SOXL @ $107.89  ($-114.35)
+  BUY 11 SPY @ $763.12 [RSI+VWAP reversion]
+  BUY 1 QQQ @ $703.79 [RSI+VWAP reversion]
+  BUY 2 NVDA @ $209.71 [RSI+VWAP reversion]
+  SELL (EOD-EXIT) 11 SPY @ $763.65  (+$5.83)
+  SELL (EOD-EXIT) 1 QQQ @ $706.54  (+$2.75)
+  SELL (STOP-LOSS) 2 NVDA @ $208.45  ($-2.52)
+  BUY 11 SPY @ $763.48 [RSI+VWAP reversion]
+  BUY 1 QQQ @ $706.24 [RSI+VWAP reversion]
+  BUY 1 AAPL @ $310.35 [RSI+VWAP reversion]
+
+Positions still open:  3
