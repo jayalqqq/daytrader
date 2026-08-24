@@ -1,28 +1,6 @@
 {
-  "cash": 93.40300894929578,
-  "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 763.1199951171875,
-      "stop": 759.3,
-      "target": 770.75,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "QQQ": {
-      "shares": 1,
-      "entry": 703.7899780273438,
-      "stop": 700.27,
-      "target": 710.83,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "NVDA": {
-      "shares": 2,
-      "entry": 209.7100067138672,
-      "stop": 208.66,
-      "target": 211.81,
-      "pattern": "RSI+VWAP reversion"
-    }
-  },
+  "cash": 9612.231393302935,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -895,6 +873,30 @@
       "shares": 2,
       "price": 209.71,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-24T15:56:08-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 763.65,
+      "pnl": 5.83
+    },
+    {
+      "time": "2026-08-24T15:56:09-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 706.54,
+      "pnl": 2.75
+    },
+    {
+      "time": "2026-08-24T15:56:09-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 2,
+      "price": 208.45,
+      "pnl": -2.52
     }
   ],
   "daily_snapshots": []
