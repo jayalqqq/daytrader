@@ -1,10 +1,10 @@
-DAY-TRADER · Monday, August 24 14:39
+DAY-TRADER · Monday, August 24 15:22
 ----------------------------------------
-Total value:   $9,619.90
-All-time P&L:  $-380.10 (-3.80%)
+Total value:   $9,604.23
+All-time P&L:  $-395.77 (-3.96%)
 Realized P&L:  $-255.85
 Closed trades: 53  |  Win rate: 40%
 Open now:      3
-  SPY: 11 sh @ $763.12 (RSI+VWAP reversion), now $763.66 (+5.94)
-  QQQ: 1 sh @ $703.79 (RSI+VWAP reversion), now $705.96 (+2.17)
-  NVDA: 2 sh @ $209.71 (RSI+VWAP reversion), now $210.14 (+0.86)
+  SPY: 11 sh @ $763.12 (RSI+VWAP reversion), now $762.52 (-6.60)
+  QQQ: 1 sh @ $703.79 (RSI+VWAP reversion), now $705.23 (+1.44)
+  NVDA: 2 sh @ $209.71 (RSI+VWAP reversion), now $208.94 (-1.54)
