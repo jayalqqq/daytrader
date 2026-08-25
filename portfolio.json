@@ -1,28 +1,6 @@
 {
-  "cash": 192.65417691804663,
-  "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 763.47998046875,
-      "stop": 759.66,
-      "target": 771.11,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "QQQ": {
-      "shares": 1,
-      "entry": 706.239990234375,
-      "stop": 702.71,
-      "target": 713.3,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "AAPL": {
-      "shares": 1,
-      "entry": 310.3500061035156,
-      "stop": 308.8,
-      "target": 313.45,
-      "pattern": "RSI+VWAP reversion"
-    }
-  },
+  "cash": 9635.430182899492,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -943,6 +921,30 @@
       "shares": 1,
       "price": 310.35,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-08-25T15:57:31-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 766.04,
+      "pnl": 28.16
+    },
+    {
+      "time": "2026-08-25T15:57:31-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 710.86,
+      "pnl": 4.62
+    },
+    {
+      "time": "2026-08-25T15:57:31-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "AAPL",
+      "shares": 1,
+      "price": 310.2,
+      "pnl": -0.15
     }
   ],
   "daily_snapshots": []
