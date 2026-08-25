@@ -1,10 +1,10 @@
-DAY-TRADER · Tuesday, August 25 16:09
+DAY-TRADER · Tuesday, August 25 16:54
 ----------------------------------------
-Total value:   $9,632.50
-All-time P&L:  $-367.50 (-3.67%)
+Total value:   $9,632.34
+All-time P&L:  $-367.66 (-3.68%)
 Realized P&L:  $-249.79
 Closed trades: 56  |  Win rate: 41%
 Open now:      3
-  SPY: 11 sh @ $763.48 (RSI+VWAP reversion), now $765.43 (+21.45)
-  QQQ: 1 sh @ $706.24 (RSI+VWAP reversion), now $710.68 (+4.44)
-  AAPL: 1 sh @ $310.35 (RSI+VWAP reversion), now $309.44 (-0.91)
+  SPY: 11 sh @ $763.48 (RSI+VWAP reversion), now $765.41 (+21.18)
+  QQQ: 1 sh @ $706.24 (RSI+VWAP reversion), now $710.31 (+4.07)
+  AAPL: 1 sh @ $310.35 (RSI+VWAP reversion), now $309.92 (-0.43)
