@@ -1,7 +1,9 @@
-DAY-TRADER · Tuesday, August 25 19:57
+DAY-TRADER · Tuesday, August 25 20:32
 ----------------------------------------
-Total value:   $9,635.43
-All-time P&L:  $-364.57 (-3.65%)
+Total value:   $9,630.75
+All-time P&L:  $-369.25 (-3.69%)
 Realized P&L:  $-217.16
 Closed trades: 59  |  Win rate: 42%
-Open now:      0
+Open now:      2
+  TSLA: 24 sh @ $350.15 (RSI+VWAP reversion), now $350.15 (+0.00)
+  AMD: 2 sh @ $479.25 (ORB breakout), now $479.25 (+0.00)
