@@ -1,0 +1,22 @@
+🔔 END-OF-DAY REPORT · Wednesday, August 26
+==========================================
+💰 Account value    $9,583.95
+📈 Day's realized   $-36.76
+📊 All-time P&L     $-416.05 (-4.16%)
+
+Trades opened today:  4
+Trades closed today:  3
+Win rate today:       33%  (1W / 2L)
+Best trade:           AMD +$20.10
+Worst trade:          TSLA $-55.20
+
+Today's trades:
+  SELL (STOP-LOSS) 24 TSLA @ $347.85  ($-55.20)
+  SELL (TAKE-PROFIT) 2 AMD @ $489.30  (+$20.10)
+  BUY 11 SPY @ $766.11 [MA pullback]
+  BUY 1 QQQ @ $711.08 [MA pullback]
+  BUY 2 UPRO @ $150.05 [MA pullback]
+  SELL (STOP-LOSS) 2 UPRO @ $149.22  ($-1.66)
+  BUY 1 AAPL @ $312.97 [MA pullback]
+
+Positions still open:  3
