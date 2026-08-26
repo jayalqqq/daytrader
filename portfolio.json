@@ -1,19 +1,26 @@
 {
-  "cash": 268.64927945710986,
+  "cash": 147.881851860067,
   "positions": {
-    "TSLA": {
-      "shares": 24,
-      "entry": 350.1499938964844,
-      "stop": 348.4,
-      "target": 353.65,
-      "pattern": "RSI+VWAP reversion"
+    "SPY": {
+      "shares": 11,
+      "entry": 766.1099853515625,
+      "stop": 762.28,
+      "target": 773.77,
+      "pattern": "MA pullback"
     },
-    "AMD": {
+    "QQQ": {
+      "shares": 1,
+      "entry": 711.0750122070312,
+      "stop": 707.52,
+      "target": 718.19,
+      "pattern": "MA pullback"
+    },
+    "UPRO": {
       "shares": 2,
-      "entry": 479.25,
-      "stop": 476.85,
-      "target": 484.04,
-      "pattern": "ORB breakout"
+      "entry": 150.0500030517578,
+      "stop": 149.3,
+      "target": 151.55,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -976,6 +983,46 @@
       "shares": 2,
       "price": 479.25,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-26T09:52:46-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TSLA",
+      "shares": 24,
+      "price": 347.85,
+      "pnl": -55.2
+    },
+    {
+      "time": "2026-08-26T09:52:46-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AMD",
+      "shares": 2,
+      "price": 489.3,
+      "pnl": 20.1
+    },
+    {
+      "time": "2026-08-26T09:52:46-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 766.11,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-26T09:52:47-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 711.08,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-08-26T09:52:49-04:00",
+      "action": "BUY",
+      "ticker": "UPRO",
+      "shares": 2,
+      "price": 150.05,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
