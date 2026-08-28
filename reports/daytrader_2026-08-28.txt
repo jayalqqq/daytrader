@@ -1,10 +1,10 @@
-DAY-TRADER · Friday, August 28 04:21
+DAY-TRADER · Friday, August 28 22:52
 ----------------------------------------
-Total value:   $9,649.40
-All-time P&L:  $-350.60 (-3.51%)
-Realized P&L:  $-243.94
-Closed trades: 63  |  Win rate: 43%
+Total value:   $9,630.56
+All-time P&L:  $-369.44 (-3.69%)
+Realized P&L:  $-241.88
+Closed trades: 65  |  Win rate: 43%
 Open now:      3
-  SPY: 11 sh @ $766.11 (MA pullback), now $771.04 (+54.23)
-  AAPL: 1 sh @ $312.97 (MA pullback), now $314.58 (+1.61)
-  QQQ: 1 sh @ $721.06 (MA pullback), now $721.06 (+0.00)
+  SPY: 11 sh @ $766.11 (MA pullback), now $769.38 (+35.97)
+  QQQ: 1 sh @ $716.45 (MA pullback), now $716.45 (+0.00)
+  AAPL: 1 sh @ $319.64 (ORB breakout), now $319.64 (+0.00)
