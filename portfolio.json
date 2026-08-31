@@ -1,5 +1,5 @@
 {
-  "cash": 131.28899805452528,
+  "cash": 446.97107439424695,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -14,13 +14,6 @@
       "stop": 712.87,
       "target": 723.61,
       "pattern": "MA pullback"
-    },
-    "AAPL": {
-      "shares": 1,
-      "entry": 319.6400146484375,
-      "stop": 318.04,
-      "target": 322.84,
-      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -1087,6 +1080,14 @@
       "shares": 1,
       "price": 319.64,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-08-31T15:23:03-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 1,
+      "price": 315.84,
+      "pnl": -3.8
     }
   ],
   "daily_snapshots": []

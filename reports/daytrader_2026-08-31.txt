@@ -1,0 +1,9 @@
+DAY-TRADER · Monday, August 31 19:23
+----------------------------------------
+Total value:   $9,590.94
+All-time P&L:  $-409.06 (-4.09%)
+Realized P&L:  $-245.68
+Closed trades: 66  |  Win rate: 42%
+Open now:      2
+  SPY: 11 sh @ $766.11 (MA pullback), now $766.27 (+1.76)
+  QQQ: 1 sh @ $716.45 (MA pullback), now $715.00 (-1.45)
