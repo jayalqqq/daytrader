@@ -1,0 +1,27 @@
+🔔 END-OF-DAY REPORT · Tuesday, September 01
+==========================================
+💰 Account value    $9,498.89
+📈 Day's realized   $-72.98
+📊 All-time P&L     $-501.11 (-5.01%)
+
+Trades opened today:  6
+Trades closed today:  6
+Win rate today:       0%  (0W / 6L)
+Best trade:           QQQ $-1.08
+Worst trade:          SPY $-48.95
+
+Today's trades:
+  SELL (STOP-LOSS) 11 SPY @ $761.66  ($-48.95)
+  SELL (STOP-LOSS) 1 QQQ @ $708.16  ($-8.29)
+  SELL (STOP-LOSS) 1 NVDA @ $218.54  ($-2.34)
+  BUY 11 SPY @ $761.66 [RSI+VWAP reversion]
+  BUY 1 QQQ @ $708.16 [RSI+VWAP reversion]
+  BUY 1 NVDA @ $218.54 [RSI+VWAP reversion]
+  SELL (EOD-EXIT) 11 SPY @ $760.68  ($-10.78)
+  SELL (EOD-EXIT) 1 QQQ @ $707.08  ($-1.08)
+  SELL (STOP-LOSS) 1 NVDA @ $217.01  ($-1.54)
+  BUY 11 SPY @ $761.70 [Momentum breakout]
+  BUY 1 QQQ @ $707.66 [MA pullback]
+  BUY 1 AAPL @ $325.14 [MA pullback]
+
+Positions still open:  3
