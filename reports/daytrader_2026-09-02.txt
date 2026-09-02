@@ -1,0 +1,10 @@
+DAY-TRADER · Wednesday, September 02 16:59
+----------------------------------------
+Total value:   $9,535.92
+All-time P&L:  $-464.08 (-4.64%)
+Realized P&L:  $-318.66
+Closed trades: 72  |  Win rate: 39%
+Open now:      3
+  SPY: 11 sh @ $761.70 (Momentum breakout), now $764.93 (+35.53)
+  QQQ: 1 sh @ $707.66 (MA pullback), now $708.28 (+0.62)
+  AAPL: 1 sh @ $325.14 (MA pullback), now $326.02 (+0.88)
