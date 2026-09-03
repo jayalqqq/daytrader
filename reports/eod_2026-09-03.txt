@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Thursday, September 03
+==========================================
+💰 Account value    $9,625.79
+📈 Day's realized   +$136.45
+📊 All-time P&L     $-374.21 (-3.74%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       100%  (3W / 0L)
+Best trade:           SPY +$122.59
+Worst trade:          AAPL +$4.01
+
+Today's trades:
+  SELL (TAKE-PROFIT) 11 SPY @ $772.84  (+$122.59)
+  SELL (TAKE-PROFIT) 1 QQQ @ $717.51  (+$9.85)
+  SELL (TAKE-PROFIT) 1 AAPL @ $329.15  (+$4.01)
+  BUY 11 SPY @ $773.11 [ORB breakout]
+  BUY 1 QQQ @ $717.61 [ORB breakout]
+  BUY 1 AAPL @ $328.21 [ORB breakout]
+
+Positions still open:  3
