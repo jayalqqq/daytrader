@@ -1,6 +1,28 @@
 {
-  "cash": 9630.569492874167,
-  "positions": {},
+  "cash": 75.76466229250258,
+  "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 773.1099853515625,
+      "stop": 769.24,
+      "target": 780.84,
+      "pattern": "ORB breakout"
+    },
+    "QQQ": {
+      "shares": 1,
+      "entry": 717.6099853515625,
+      "stop": 714.02,
+      "target": 724.79,
+      "pattern": "ORB breakout"
+    },
+    "AAPL": {
+      "shares": 1,
+      "entry": 328.2099914550781,
+      "stop": 326.57,
+      "target": 331.49,
+      "pattern": "ORB breakout"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1201,6 +1223,30 @@
       "shares": 1,
       "price": 329.15,
       "pnl": 4.01
+    },
+    {
+      "time": "2026-09-03T17:53:07-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 773.11,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-03T17:53:07-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 717.61,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-03T17:53:07-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 1,
+      "price": 328.21,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []

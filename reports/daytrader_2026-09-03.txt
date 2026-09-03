@@ -1,7 +1,10 @@
-DAY-TRADER · Thursday, September 03 19:39
+DAY-TRADER · Thursday, September 03 21:53
 ----------------------------------------
-Total value:   $9,630.57
-All-time P&L:  $-369.43 (-3.69%)
+Total value:   $9,625.79
+All-time P&L:  $-374.21 (-3.74%)
 Realized P&L:  $-182.21
 Closed trades: 75  |  Win rate: 41%
-Open now:      0
+Open now:      3
+  SPY: 11 sh @ $773.11 (ORB breakout), now $773.11 (+0.00)
+  QQQ: 1 sh @ $717.61 (ORB breakout), now $717.61 (+0.00)
+  AAPL: 1 sh @ $328.21 (ORB breakout), now $328.21 (+0.00)
