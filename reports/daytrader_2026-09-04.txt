@@ -1,10 +1,10 @@
-DAY-TRADER · Friday, September 04 19:09
+DAY-TRADER · Friday, September 04 21:28
 ----------------------------------------
-Total value:   $9,582.35
-All-time P&L:  $-417.65 (-4.18%)
+Total value:   $9,589.79
+All-time P&L:  $-410.21 (-4.10%)
 Realized P&L:  $-189.61
 Closed trades: 76  |  Win rate: 41%
 Open now:      3
-  SPY: 11 sh @ $773.11 (ORB breakout), now $769.68 (-37.73)
-  QQQ: 1 sh @ $717.61 (ORB breakout), now $717.56 (-0.05)
-  TSLA: 1 sh @ $352.10 (RSI+VWAP reversion), now $354.17 (+2.07)
+  SPY: 11 sh @ $773.11 (ORB breakout), now $770.24 (-31.57)
+  QQQ: 1 sh @ $717.61 (ORB breakout), now $719.06 (+1.45)
+  TSLA: 1 sh @ $352.10 (RSI+VWAP reversion), now $353.95 (+1.85)
