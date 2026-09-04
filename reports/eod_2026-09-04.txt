@@ -1,0 +1,17 @@
+🔔 END-OF-DAY REPORT · Friday, September 04
+==========================================
+💰 Account value    $9,589.79
+📈 Day's realized   $-7.40
+📊 All-time P&L     $-410.21 (-4.10%)
+
+Trades opened today:  1
+Trades closed today:  1
+Win rate today:       0%  (0W / 1L)
+Best trade:           AAPL $-7.40
+Worst trade:          AAPL $-7.40
+
+Today's trades:
+  SELL (STOP-LOSS) 1 AAPL @ $320.81  ($-7.40)
+  BUY 1 TSLA @ $352.10 [RSI+VWAP reversion]
+
+Positions still open:  3
