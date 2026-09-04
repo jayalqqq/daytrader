@@ -1,5 +1,5 @@
 {
-  "cash": 75.76466229250258,
+  "cash": 44.13920532228781,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,12 +15,12 @@
       "target": 724.79,
       "pattern": "ORB breakout"
     },
-    "AAPL": {
+    "TSLA": {
       "shares": 1,
-      "entry": 328.2099914550781,
-      "stop": 326.57,
-      "target": 331.49,
-      "pattern": "ORB breakout"
+      "entry": 352.1000061035156,
+      "stop": 350.34,
+      "target": 355.62,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -1247,6 +1247,22 @@
       "shares": 1,
       "price": 328.21,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-04T12:43:25-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 1,
+      "price": 320.81,
+      "pnl": -7.4
+    },
+    {
+      "time": "2026-09-04T12:43:26-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 352.1,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
