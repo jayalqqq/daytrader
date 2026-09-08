@@ -1,28 +1,6 @@
 {
-  "cash": 203.72369039919192,
-  "positions": {
-    "QQQ": {
-      "shares": 1,
-      "entry": 717.6099853515625,
-      "stop": 714.02,
-      "target": 724.79,
-      "pattern": "ORB breakout"
-    },
-    "AAPL": {
-      "shares": 25,
-      "entry": 316.343994140625,
-      "stop": 314.76,
-      "target": 319.51,
-      "pattern": "MA pullback"
-    },
-    "TSLA": {
-      "shares": 2,
-      "entry": 368.8800048828125,
-      "stop": 367.04,
-      "target": 372.57,
-      "pattern": "MA pullback"
-    }
-  },
+  "cash": 9557.055030685447,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1295,6 +1273,30 @@
       "shares": 2,
       "price": 368.88,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-08T15:54:49-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 717.42,
+      "pnl": -0.19
+    },
+    {
+      "time": "2026-09-08T15:54:50-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "AAPL",
+      "shares": 25,
+      "price": 316.17,
+      "pnl": -4.35
+    },
+    {
+      "time": "2026-09-08T15:54:50-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 368.17,
+      "pnl": -1.42
     }
   ],
   "daily_snapshots": []
