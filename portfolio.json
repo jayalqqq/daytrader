@@ -1,13 +1,6 @@
 {
-  "cash": 44.13920532228781,
+  "cash": 203.72369039919192,
   "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 773.1099853515625,
-      "stop": 769.24,
-      "target": 780.84,
-      "pattern": "ORB breakout"
-    },
     "QQQ": {
       "shares": 1,
       "entry": 717.6099853515625,
@@ -15,12 +8,19 @@
       "target": 724.79,
       "pattern": "ORB breakout"
     },
+    "AAPL": {
+      "shares": 25,
+      "entry": 316.343994140625,
+      "stop": 314.76,
+      "target": 319.51,
+      "pattern": "MA pullback"
+    },
     "TSLA": {
-      "shares": 1,
-      "entry": 352.1000061035156,
-      "stop": 350.34,
-      "target": 355.62,
-      "pattern": "RSI+VWAP reversion"
+      "shares": 2,
+      "entry": 368.8800048828125,
+      "stop": 367.04,
+      "target": 372.57,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -1263,6 +1263,38 @@
       "shares": 1,
       "price": 352.1,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-09-08T13:03:45-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 767.8,
+      "pnl": -58.41
+    },
+    {
+      "time": "2026-09-08T13:03:45-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 368.88,
+      "pnl": 16.77
+    },
+    {
+      "time": "2026-09-08T13:03:45-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 25,
+      "price": 316.34,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-08T13:03:46-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 2,
+      "price": 368.88,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
