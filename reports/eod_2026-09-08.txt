@@ -1,0 +1,24 @@
+🔔 END-OF-DAY REPORT · Tuesday, September 08
+==========================================
+💰 Account value    $9,552.57
+📈 Day's realized   $-47.60
+📊 All-time P&L     $-447.43 (-4.47%)
+
+Trades opened today:  4
+Trades closed today:  5
+Win rate today:       20%  (1W / 4L)
+Best trade:           TSLA +$16.77
+Worst trade:          SPY $-58.41
+
+Today's trades:
+  SELL (STOP-LOSS) 11 SPY @ $767.80  ($-58.41)
+  SELL (TAKE-PROFIT) 1 TSLA @ $368.88  (+$16.77)
+  BUY 25 AAPL @ $316.34 [MA pullback]
+  BUY 2 TSLA @ $368.88 [MA pullback]
+  SELL (EOD-EXIT) 1 QQQ @ $717.42  ($-0.19)
+  SELL (EOD-EXIT) 25 AAPL @ $316.17  ($-4.35)
+  SELL (EOD-EXIT) 2 TSLA @ $368.17  ($-1.42)
+  BUY 23 TSLA @ $368.04 [ORB breakout]
+  BUY 1 AMD @ $505.53 [ORB breakout]
+
+Positions still open:  2
