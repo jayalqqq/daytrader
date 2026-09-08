@@ -1,6 +1,21 @@
 {
-  "cash": 9557.055030685447,
-  "positions": {},
+  "cash": 582.1196102752913,
+  "positions": {
+    "TSLA": {
+      "shares": 23,
+      "entry": 368.0400085449219,
+      "stop": 366.2,
+      "target": 371.72,
+      "pattern": "ORB breakout"
+    },
+    "AMD": {
+      "shares": 1,
+      "entry": 505.5299987792969,
+      "stop": 503.0,
+      "target": 510.59,
+      "pattern": "ORB breakout"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1297,6 +1312,22 @@
       "shares": 2,
       "price": 368.17,
       "pnl": -1.42
+    },
+    {
+      "time": "2026-09-08T18:21:44-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 23,
+      "price": 368.04,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-08T18:21:44-04:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 505.53,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []

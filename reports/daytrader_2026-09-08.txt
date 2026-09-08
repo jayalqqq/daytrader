@@ -1,7 +1,9 @@
-DAY-TRADER · Tuesday, September 08 19:54
+DAY-TRADER · Tuesday, September 08 22:21
 ----------------------------------------
-Total value:   $9,557.06
-All-time P&L:  $-442.94 (-4.43%)
+Total value:   $9,552.57
+All-time P&L:  $-447.43 (-4.47%)
 Realized P&L:  $-237.21
 Closed trades: 81  |  Win rate: 40%
-Open now:      0
+Open now:      2
+  TSLA: 23 sh @ $368.04 (ORB breakout), now $368.04 (+0.00)
+  AMD: 1 sh @ $505.53 (ORB breakout), now $505.53 (+0.00)
