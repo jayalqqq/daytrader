@@ -1,6 +1,14 @@
 {
-  "cash": 9580.907612136865,
-  "positions": {},
+  "cash": 1082.2657004242192,
+  "positions": {
+    "META": {
+      "shares": 13,
+      "entry": 653.4149780273438,
+      "stop": 650.15,
+      "target": 659.95,
+      "pattern": "ORB breakout"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1345,6 +1353,14 @@
       "shares": 3,
       "price": 315.64,
       "pnl": 2.13
+    },
+    {
+      "time": "2026-09-09T18:15:37-04:00",
+      "action": "BUY",
+      "ticker": "META",
+      "shares": 13,
+      "price": 653.41,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []

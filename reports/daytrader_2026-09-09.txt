@@ -1,7 +1,8 @@
-DAY-TRADER · Wednesday, September 09 19:45
+DAY-TRADER · Wednesday, September 09 22:15
 ----------------------------------------
-Total value:   $9,580.91
-All-time P&L:  $-419.09 (-4.19%)
+Total value:   $9,576.66
+All-time P&L:  $-423.34 (-4.23%)
 Realized P&L:  $-203.43
 Closed trades: 84  |  Win rate: 42%
-Open now:      0
+Open now:      1
+  META: 13 sh @ $653.41 (ORB breakout), now $653.41 (+0.00)
