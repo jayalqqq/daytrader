@@ -1,0 +1,9 @@
+DAY-TRADER · Wednesday, September 09 17:02
+----------------------------------------
+Total value:   $9,590.26
+All-time P&L:  $-409.74 (-4.10%)
+Realized P&L:  $-219.70
+Closed trades: 82  |  Win rate: 40%
+Open now:      2
+  TSLA: 23 sh @ $368.04 (ORB breakout), now $368.95 (+20.93)
+  AAPL: 3 sh @ $314.93 (Momentum breakout), now $314.93 (-0.02)
