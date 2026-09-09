@@ -1,0 +1,20 @@
+🔔 END-OF-DAY REPORT · Wednesday, September 09
+==========================================
+💰 Account value    $9,576.66
+📈 Day's realized   +$33.78
+📊 All-time P&L     $-423.34 (-4.23%)
+
+Trades opened today:  2
+Trades closed today:  3
+Win rate today:       100%  (3W / 0L)
+Best trade:           AMD +$17.51
+Worst trade:          AAPL +$2.13
+
+Today's trades:
+  SELL (TAKE-PROFIT) 1 AMD @ $523.04  (+$17.51)
+  BUY 3 AAPL @ $314.93 [Momentum breakout]
+  SELL (EOD-EXIT) 23 TSLA @ $368.65  (+$14.14)
+  SELL (EOD-EXIT) 3 AAPL @ $315.64  (+$2.13)
+  BUY 13 META @ $653.41 [ORB breakout]
+
+Positions still open:  1
