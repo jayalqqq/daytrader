@@ -1,21 +1,6 @@
 {
-  "cash": 159.62067314150238,
-  "positions": {
-    "TSLA": {
-      "shares": 23,
-      "entry": 368.0400085449219,
-      "stop": 366.2,
-      "target": 371.72,
-      "pattern": "ORB breakout"
-    },
-    "AAPL": {
-      "shares": 3,
-      "entry": 314.93499755859375,
-      "stop": 313.36,
-      "target": 318.08,
-      "pattern": "Momentum breakout"
-    }
-  },
+  "cash": 9580.907612136865,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1344,6 +1329,22 @@
       "shares": 3,
       "price": 314.93,
       "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-09-09T15:45:43-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "TSLA",
+      "shares": 23,
+      "price": 368.65,
+      "pnl": 14.14
+    },
+    {
+      "time": "2026-09-09T15:45:43-04:00",
+      "action": "SELL (EOD-EXIT)",
+      "ticker": "AAPL",
+      "shares": 3,
+      "price": 315.64,
+      "pnl": 2.13
     }
   ],
   "daily_snapshots": []
