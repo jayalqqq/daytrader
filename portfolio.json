@@ -1,12 +1,12 @@
 {
-  "cash": 1082.2657004242192,
+  "cash": 1072.8509158630623,
   "positions": {
-    "META": {
-      "shares": 13,
-      "entry": 653.4149780273438,
-      "stop": 650.15,
-      "target": 659.95,
-      "pattern": "ORB breakout"
+    "TSLA": {
+      "shares": 23,
+      "entry": 363.9549865722656,
+      "stop": 362.14,
+      "target": 367.59,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -1361,6 +1361,22 @@
       "shares": 13,
       "price": 653.41,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-10T15:27:09-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "META",
+      "shares": 13,
+      "price": 643.84,
+      "pnl": -124.47
+    },
+    {
+      "time": "2026-09-10T15:27:10-04:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 23,
+      "price": 363.95,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
