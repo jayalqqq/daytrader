@@ -1,5 +1,5 @@
 {
-  "cash": 1072.8509158630623,
+  "cash": 314.5919709778084,
   "positions": {
     "TSLA": {
       "shares": 23,
@@ -7,6 +7,13 @@
       "stop": 362.14,
       "target": 367.59,
       "pattern": "RSI+VWAP reversion"
+    },
+    "SPY": {
+      "shares": 1,
+      "entry": 757.8800048828125,
+      "stop": 754.09,
+      "target": 765.46,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -1377,6 +1384,14 @@
       "shares": 23,
       "price": 363.95,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-09-10T17:46:39-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 757.88,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
