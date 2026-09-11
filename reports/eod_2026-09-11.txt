@@ -1,0 +1,14 @@
+🔔 END-OF-DAY REPORT · Friday, September 11
+==========================================
+💰 Account value    $9,484.47
+📈 Day's realized   +$0.00
+📊 All-time P&L     $-515.53 (-5.16%)
+
+Trades opened today:  1
+Trades closed today:  0
+No trades closed today.
+
+Today's trades:
+  BUY 1 NVDA @ $218.20 [RSI+VWAP reversion]
+
+Positions still open:  3
