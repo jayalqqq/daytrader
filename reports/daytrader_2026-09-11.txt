@@ -1,9 +1,10 @@
-DAY-TRADER · Friday, September 11 19:28
+DAY-TRADER · Friday, September 11 21:51
 ----------------------------------------
-Total value:   $9,463.70
-All-time P&L:  $-536.30 (-5.36%)
+Total value:   $9,484.47
+All-time P&L:  $-515.53 (-5.16%)
 Realized P&L:  $-327.90
 Closed trades: 85  |  Win rate: 41%
-Open now:      2
-  TSLA: 23 sh @ $363.95 (RSI+VWAP reversion), now $364.52 (+13.00)
-  SPY: 1 sh @ $757.88 (MA pullback), now $765.15 (+7.27)
+Open now:      3
+  TSLA: 23 sh @ $363.95 (RSI+VWAP reversion), now $365.47 (+34.85)
+  SPY: 1 sh @ $757.88 (MA pullback), now $764.18 (+6.30)
+  NVDA: 1 sh @ $218.20 (RSI+VWAP reversion), now $218.20 (+0.00)

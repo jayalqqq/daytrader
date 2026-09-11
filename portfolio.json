@@ -1,5 +1,5 @@
 {
-  "cash": 314.5919709778084,
+  "cash": 96.28287403109209,
   "positions": {
     "TSLA": {
       "shares": 23,
@@ -14,6 +14,13 @@
       "stop": 754.09,
       "target": 765.46,
       "pattern": "MA pullback"
+    },
+    "NVDA": {
+      "shares": 1,
+      "entry": 218.1999969482422,
+      "stop": 217.11,
+      "target": 220.38,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -1392,6 +1399,14 @@
       "shares": 1,
       "price": 757.88,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-11T17:51:57-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 218.2,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
