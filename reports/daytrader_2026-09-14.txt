@@ -1,0 +1,10 @@
+DAY-TRADER · Monday, September 14 18:20
+----------------------------------------
+Total value:   $9,367.28
+All-time P&L:  $-632.72 (-6.33%)
+Realized P&L:  $-399.75
+Closed trades: 87  |  Win rate: 40%
+Open now:      3
+  SPY: 1 sh @ $757.88 (MA pullback), now $762.30 (+4.42)
+  QQQ: 10 sh @ $712.29 (MA pullback), now $712.30 (+0.05)
+  TSLA: 3 sh @ $361.13 (RSI+VWAP reversion), now $361.03 (-0.30)
