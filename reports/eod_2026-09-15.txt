@@ -1,0 +1,17 @@
+🔔 END-OF-DAY REPORT · Tuesday, September 15
+==========================================
+💰 Account value    $9,281.45
+📈 Day's realized   $-74.46
+📊 All-time P&L     $-718.55 (-7.19%)
+
+Trades opened today:  1
+Trades closed today:  1
+Win rate today:       0%  (0W / 1L)
+Best trade:           QQQ $-74.46
+Worst trade:          QQQ $-74.46
+
+Today's trades:
+  SELL (STOP-LOSS) 10 QQQ @ $704.85  ($-74.46)
+  BUY 45 UPRO @ $144.02 [Momentum breakout]
+
+Positions still open:  3
