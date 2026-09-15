@@ -1,18 +1,11 @@
 {
-  "cash": 209.28528140261346,
+  "cash": 7254.246756317165,
   "positions": {
     "SPY": {
       "shares": 1,
       "entry": 757.8800048828125,
       "stop": 754.09,
       "target": 765.46,
-      "pattern": "MA pullback"
-    },
-    "QQQ": {
-      "shares": 10,
-      "entry": 712.2949829101562,
-      "stop": 708.73,
-      "target": 719.42,
       "pattern": "MA pullback"
     },
     "NVDA": {
@@ -1455,6 +1448,14 @@
       "shares": 6,
       "price": 210.89,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-09-15T13:28:16-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 10,
+      "price": 704.85,
+      "pnl": -74.46
     }
   ],
   "daily_snapshots": []
