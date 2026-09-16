@@ -1,0 +1,20 @@
+🔔 END-OF-DAY REPORT · Wednesday, September 16
+==========================================
+💰 Account value    $9,200.00
+📈 Day's realized   $-62.49
+📊 All-time P&L     $-800.00 (-8.00%)
+
+Trades opened today:  2
+Trades closed today:  3
+Win rate today:       33%  (1W / 2L)
+Best trade:           NVDA +$26.82
+Worst trade:          UPRO $-85.50
+
+Today's trades:
+  SELL (TAKE-PROFIT) 6 NVDA @ $215.36  (+$26.82)
+  BUY 5 AAPL @ $333.16 [MA pullback]
+  SELL (STOP-LOSS) 1 SPY @ $754.07  ($-3.81)
+  SELL (STOP-LOSS) 45 UPRO @ $142.12  ($-85.50)
+  BUY 65 SOXL @ $104.08 [Momentum breakout]
+
+Positions still open:  2
