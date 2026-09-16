@@ -1,10 +1,9 @@
-DAY-TRADER · Wednesday, September 16 17:27
+DAY-TRADER · Wednesday, September 16 20:22
 ----------------------------------------
-Total value:   $9,361.70
-All-time P&L:  $-638.30 (-6.38%)
-Realized P&L:  $-453.87
-Closed trades: 90  |  Win rate: 40%
-Open now:      3
-  SPY: 1 sh @ $757.88 (MA pullback), now $759.89 (+2.01)
-  UPRO: 45 sh @ $144.02 (Momentum breakout), now $145.36 (+60.12)
-  AAPL: 5 sh @ $333.16 (MA pullback), now $333.16 (+0.00)
+Total value:   $9,200.00
+All-time P&L:  $-800.00 (-8.00%)
+Realized P&L:  $-543.18
+Closed trades: 92  |  Win rate: 39%
+Open now:      2
+  AAPL: 5 sh @ $333.16 (MA pullback), now $332.50 (-3.30)
+  SOXL: 65 sh @ $104.08 (Momentum breakout), now $104.08 (+0.00)

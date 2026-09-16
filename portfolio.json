@@ -1,26 +1,19 @@
 {
-  "cash": 394.986661308315,
+  "cash": 772.298994934109,
   "positions": {
-    "SPY": {
-      "shares": 1,
-      "entry": 757.8800048828125,
-      "stop": 754.09,
-      "target": 765.46,
-      "pattern": "MA pullback"
-    },
-    "UPRO": {
-      "shares": 45,
-      "entry": 144.02000427246094,
-      "stop": 143.3,
-      "target": 145.46,
-      "pattern": "Momentum breakout"
-    },
     "AAPL": {
       "shares": 5,
       "entry": 333.16009521484375,
       "stop": 331.49,
       "target": 336.49,
       "pattern": "MA pullback"
+    },
+    "SOXL": {
+      "shares": 65,
+      "entry": 104.08000183105469,
+      "stop": 103.56,
+      "target": 105.12,
+      "pattern": "Momentum breakout"
     }
   },
   "history": [
@@ -1487,6 +1480,30 @@
       "shares": 5,
       "price": 333.16,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-16T16:22:02-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 1,
+      "price": 754.07,
+      "pnl": -3.81
+    },
+    {
+      "time": "2026-09-16T16:22:02-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "UPRO",
+      "shares": 45,
+      "price": 142.12,
+      "pnl": -85.5
+    },
+    {
+      "time": "2026-09-16T16:22:04-04:00",
+      "action": "BUY",
+      "ticker": "SOXL",
+      "shares": 65,
+      "price": 104.08,
+      "pattern": "Momentum breakout"
     }
   ],
   "daily_snapshots": []
