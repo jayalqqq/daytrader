@@ -1,5 +1,5 @@
 {
-  "cash": 770.1061139602925,
+  "cash": 394.986661308315,
   "positions": {
     "SPY": {
       "shares": 1,
@@ -8,19 +8,19 @@
       "target": 765.46,
       "pattern": "MA pullback"
     },
-    "NVDA": {
-      "shares": 6,
-      "entry": 210.88999938964844,
-      "stop": 209.84,
-      "target": 213.0,
-      "pattern": "RSI+VWAP reversion"
-    },
     "UPRO": {
       "shares": 45,
       "entry": 144.02000427246094,
       "stop": 143.3,
       "target": 145.46,
       "pattern": "Momentum breakout"
+    },
+    "AAPL": {
+      "shares": 5,
+      "entry": 333.16009521484375,
+      "stop": 331.49,
+      "target": 336.49,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -1471,6 +1471,22 @@
       "shares": 45,
       "price": 144.02,
       "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-09-16T13:27:46-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "NVDA",
+      "shares": 6,
+      "price": 215.36,
+      "pnl": 26.82
+    },
+    {
+      "time": "2026-09-16T13:27:47-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 5,
+      "price": 333.16,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
