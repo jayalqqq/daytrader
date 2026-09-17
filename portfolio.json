@@ -1,13 +1,6 @@
 {
-  "cash": 218.3317031173982,
+  "cash": 216.64630318453715,
   "positions": {
-    "AAPL": {
-      "shares": 5,
-      "entry": 333.16009521484375,
-      "stop": 331.49,
-      "target": 336.49,
-      "pattern": "MA pullback"
-    },
     "QQQ": {
       "shares": 10,
       "entry": 716.489990234375,
@@ -21,6 +14,13 @@
       "stop": 217.86,
       "target": 221.14,
       "pattern": "MA pullback"
+    },
+    "AAPL": {
+      "shares": 5,
+      "entry": 337.0799865722656,
+      "stop": 335.39,
+      "target": 340.45,
+      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -1535,6 +1535,22 @@
       "shares": 4,
       "price": 218.95,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-17T16:29:46-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AAPL",
+      "shares": 5,
+      "price": 337.08,
+      "pnl": 19.6
+    },
+    {
+      "time": "2026-09-17T16:29:47-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 5,
+      "price": 337.08,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []
