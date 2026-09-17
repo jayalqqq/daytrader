@@ -1,5 +1,5 @@
 {
-  "cash": 772.298994934109,
+  "cash": 218.3317031173982,
   "positions": {
     "AAPL": {
       "shares": 5,
@@ -8,12 +8,19 @@
       "target": 336.49,
       "pattern": "MA pullback"
     },
-    "SOXL": {
-      "shares": 65,
-      "entry": 104.08000183105469,
-      "stop": 103.56,
-      "target": 105.12,
-      "pattern": "Momentum breakout"
+    "QQQ": {
+      "shares": 10,
+      "entry": 716.489990234375,
+      "stop": 712.91,
+      "target": 723.65,
+      "pattern": "MA pullback"
+    },
+    "NVDA": {
+      "shares": 4,
+      "entry": 218.9499969482422,
+      "stop": 217.86,
+      "target": 221.14,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -1504,6 +1511,30 @@
       "shares": 65,
       "price": 104.08,
       "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-09-17T13:27:41-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SOXL",
+      "shares": 65,
+      "price": 115.3,
+      "pnl": 729.3
+    },
+    {
+      "time": "2026-09-17T13:27:43-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 10,
+      "price": 716.49,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-17T13:27:44-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 4,
+      "price": 218.95,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
