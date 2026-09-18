@@ -1,5 +1,5 @@
 {
-  "cash": 253.84305294039655,
+  "cash": 89.88457936861988,
   "positions": {
     "QQQ": {
       "shares": 10,
@@ -8,19 +8,19 @@
       "target": 723.65,
       "pattern": "MA pullback"
     },
-    "NVDA": {
-      "shares": 4,
-      "entry": 218.9499969482422,
-      "stop": 217.86,
-      "target": 221.14,
+    "SPY": {
+      "shares": 3,
+      "entry": 761.6300048828125,
+      "stop": 757.82,
+      "target": 769.25,
       "pattern": "MA pullback"
     },
-    "AMD": {
-      "shares": 3,
-      "entry": 544.96630859375,
-      "stop": 542.24,
-      "target": 550.42,
-      "pattern": "MA pullback"
+    "NVDA": {
+      "shares": 2,
+      "entry": 222.08999633789062,
+      "stop": 220.98,
+      "target": 224.31,
+      "pattern": "Momentum breakout"
     }
   },
   "history": [
@@ -1567,6 +1567,38 @@
       "shares": 3,
       "price": 544.97,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-18T17:46:32-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "NVDA",
+      "shares": 4,
+      "price": 222.09,
+      "pnl": 12.56
+    },
+    {
+      "time": "2026-09-18T17:46:33-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AMD",
+      "shares": 3,
+      "price": 559.8,
+      "pnl": 44.5
+    },
+    {
+      "time": "2026-09-18T17:46:33-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 3,
+      "price": 761.63,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-18T17:46:33-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 2,
+      "price": 222.09,
+      "pattern": "Momentum breakout"
     }
   ],
   "daily_snapshots": []

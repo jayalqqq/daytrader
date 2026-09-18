@@ -1,10 +1,10 @@
-DAY-TRADER · Friday, September 18 19:27
+DAY-TRADER · Friday, September 18 21:46
 ----------------------------------------
-Total value:   $9,960.55
-All-time P&L:  $-39.45 (-0.39%)
-Realized P&L:  +$194.07
-Closed trades: 95  |  Win rate: 40%
+Total value:   $10,032.55
+All-time P&L:  +$32.55 (+0.33%)
+Realized P&L:  +$251.13
+Closed trades: 97  |  Win rate: 41%
 Open now:      3
-  QQQ: 10 sh @ $716.49 (MA pullback), now $719.23 (+27.40)
-  NVDA: 4 sh @ $218.95 (MA pullback), now $219.58 (+2.52)
-  AMD: 3 sh @ $544.97 (MA pullback), now $545.36 (+1.19)
+  QQQ: 10 sh @ $716.49 (MA pullback), now $721.36 (+48.70)
+  SPY: 3 sh @ $761.63 (MA pullback), now $761.63 (+0.00)
+  NVDA: 2 sh @ $222.09 (Momentum breakout), now $222.09 (+0.00)
