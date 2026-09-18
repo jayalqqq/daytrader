@@ -1,5 +1,5 @@
 {
-  "cash": 216.64630318453715,
+  "cash": 253.84305294039655,
   "positions": {
     "QQQ": {
       "shares": 10,
@@ -15,12 +15,12 @@
       "target": 221.14,
       "pattern": "MA pullback"
     },
-    "AAPL": {
-      "shares": 5,
-      "entry": 337.0799865722656,
-      "stop": 335.39,
-      "target": 340.45,
-      "pattern": "ORB breakout"
+    "AMD": {
+      "shares": 3,
+      "entry": 544.96630859375,
+      "stop": 542.24,
+      "target": 550.42,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -1551,6 +1551,22 @@
       "shares": 5,
       "price": 337.08,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-18T12:56:06-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 5,
+      "price": 334.75,
+      "pnl": -11.65
+    },
+    {
+      "time": "2026-09-18T12:56:07-04:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "shares": 3,
+      "price": 544.97,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
