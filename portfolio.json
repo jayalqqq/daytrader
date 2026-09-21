@@ -1,28 +1,6 @@
 {
-  "cash": 89.88457936861988,
-  "positions": {
-    "QQQ": {
-      "shares": 10,
-      "entry": 716.489990234375,
-      "stop": 712.91,
-      "target": 723.65,
-      "pattern": "MA pullback"
-    },
-    "SPY": {
-      "shares": 3,
-      "entry": 761.6300048828125,
-      "stop": 757.82,
-      "target": 769.25,
-      "pattern": "MA pullback"
-    },
-    "NVDA": {
-      "shares": 2,
-      "entry": 222.08999633789062,
-      "stop": 220.98,
-      "target": 224.31,
-      "pattern": "Momentum breakout"
-    }
-  },
+  "cash": 10266.593667167692,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1599,6 +1577,30 @@
       "shares": 2,
       "price": 222.09,
       "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-09-21T14:28:21-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "QQQ",
+      "shares": 10,
+      "price": 740.56,
+      "pnl": 240.7
+    },
+    {
+      "time": "2026-09-21T14:28:21-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SPY",
+      "shares": 3,
+      "price": 773.82,
+      "pnl": 36.57
+    },
+    {
+      "time": "2026-09-21T14:28:22-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "NVDA",
+      "shares": 2,
+      "price": 227.37,
+      "pnl": 10.56
     }
   ],
   "daily_snapshots": []
