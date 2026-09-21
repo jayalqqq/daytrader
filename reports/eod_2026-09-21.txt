@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Monday, September 21
+==========================================
+💰 Account value    $10,261.48
+📈 Day's realized   +$287.83
+📊 All-time P&L     +$261.48 (+2.61%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       100%  (3W / 0L)
+Best trade:           QQQ +$240.70
+Worst trade:          NVDA +$10.56
+
+Today's trades:
+  SELL (TAKE-PROFIT) 10 QQQ @ $740.56  (+$240.70)
+  SELL (TAKE-PROFIT) 3 SPY @ $773.82  (+$36.57)
+  SELL (TAKE-PROFIT) 2 NVDA @ $227.37  (+$10.56)
+  BUY 11 SPY @ $773.52 [ORB breakout]
+  BUY 2 QQQ @ $741.45 [ORB breakout]
+  BUY 1 NVDA @ $227.25 [ORB breakout]
+
+Positions still open:  3
