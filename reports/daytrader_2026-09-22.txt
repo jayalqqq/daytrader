@@ -1,10 +1,10 @@
-DAY-TRADER · Tuesday, September 22 17:31
+DAY-TRADER · Tuesday, September 22 20:28
 ----------------------------------------
-Total value:   $10,271.99
-All-time P&L:  +$271.99 (+2.72%)
+Total value:   $10,274.21
+All-time P&L:  +$274.21 (+2.74%)
 Realized P&L:  +$538.96
 Closed trades: 100  |  Win rate: 43%
 Open now:      3
-  SPY: 11 sh @ $773.52 (ORB breakout), now $773.55 (+0.35)
-  QQQ: 2 sh @ $741.45 (ORB breakout), now $745.43 (+7.96)
-  NVDA: 1 sh @ $227.25 (ORB breakout), now $229.44 (+2.19)
+  SPY: 11 sh @ $773.52 (ORB breakout), now $773.44 (-0.88)
+  QQQ: 2 sh @ $741.45 (ORB breakout), now $747.47 (+12.03)
+  NVDA: 1 sh @ $227.25 (ORB breakout), now $228.83 (+1.58)
