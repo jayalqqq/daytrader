@@ -1,9 +1,10 @@
-DAY-TRADER · Wednesday, September 23 17:42
+DAY-TRADER · Wednesday, September 23 20:41
 ----------------------------------------
-Total value:   $10,184.19
-All-time P&L:  +$184.19 (+1.84%)
+Total value:   $10,180.82
+All-time P&L:  +$180.82 (+1.81%)
 Realized P&L:  +$473.15
 Closed trades: 102  |  Win rate: 42%
-Open now:      2
-  QQQ: 2 sh @ $741.45 (ORB breakout), now $739.81 (-3.28)
-  AAPL: 23 sh @ $337.20 (MA pullback), now $337.20 (+0.00)
+Open now:      3
+  QQQ: 2 sh @ $741.45 (ORB breakout), now $741.17 (-0.56)
+  AAPL: 23 sh @ $337.20 (MA pullback), now $336.95 (-5.75)
+  NVDA: 3 sh @ $225.51 (MA pullback), now $225.51 (+0.00)
