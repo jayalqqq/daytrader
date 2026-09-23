@@ -1,13 +1,6 @@
 {
-  "cash": 42.6139927902511,
+  "cash": 948.9659294357607,
   "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 773.52001953125,
-      "stop": 769.65,
-      "target": 781.26,
-      "pattern": "ORB breakout"
-    },
     "QQQ": {
       "shares": 2,
       "entry": 741.4500122070312,
@@ -15,12 +8,12 @@
       "target": 748.86,
       "pattern": "ORB breakout"
     },
-    "NVDA": {
-      "shares": 1,
-      "entry": 227.25,
-      "stop": 226.11,
-      "target": 229.52,
-      "pattern": "ORB breakout"
+    "AAPL": {
+      "shares": 23,
+      "entry": 337.20001220703125,
+      "stop": 335.51,
+      "target": 340.57,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -1647,6 +1640,30 @@
       "shares": 1,
       "price": 227.25,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-09-23T13:42:00-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 767.76,
+      "pnl": -63.36
+    },
+    {
+      "time": "2026-09-23T13:42:00-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 224.8,
+      "pnl": -2.45
+    },
+    {
+      "time": "2026-09-23T13:42:00-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 23,
+      "price": 337.2,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
