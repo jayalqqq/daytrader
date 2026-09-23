@@ -1,0 +1,19 @@
+🔔 END-OF-DAY REPORT · Wednesday, September 23
+==========================================
+💰 Account value    $10,180.82
+📈 Day's realized   $-65.81
+📊 All-time P&L     +$180.82 (+1.81%)
+
+Trades opened today:  2
+Trades closed today:  2
+Win rate today:       0%  (0W / 2L)
+Best trade:           NVDA $-2.45
+Worst trade:          SPY $-63.36
+
+Today's trades:
+  SELL (STOP-LOSS) 11 SPY @ $767.76  ($-63.36)
+  SELL (STOP-LOSS) 1 NVDA @ $224.80  ($-2.45)
+  BUY 23 AAPL @ $337.20 [MA pullback]
+  BUY 3 NVDA @ $225.51 [MA pullback]
+
+Positions still open:  3
