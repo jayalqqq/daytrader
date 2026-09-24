@@ -1,0 +1,17 @@
+🔔 END-OF-DAY REPORT · Thursday, September 24
+==========================================
+💰 Account value    $10,149.69
+📈 Day's realized   $-5.40
+📊 All-time P&L     +$149.69 (+1.50%)
+
+Trades opened today:  1
+Trades closed today:  1
+Win rate today:       0%  (0W / 1L)
+Best trade:           NVDA $-5.40
+Worst trade:          NVDA $-5.40
+
+Today's trades:
+  SELL (STOP-LOSS) 3 NVDA @ $223.71  ($-5.40)
+  BUY 3 NVDA @ $224.54 [ORB breakout]
+
+Positions still open:  3
