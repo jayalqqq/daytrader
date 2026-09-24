@@ -1,5 +1,5 @@
 {
-  "cash": 272.0976809234927,
+  "cash": 942.8921360550235,
   "positions": {
     "QQQ": {
       "shares": 2,
@@ -13,13 +13,6 @@
       "entry": 337.20001220703125,
       "stop": 335.51,
       "target": 340.57,
-      "pattern": "MA pullback"
-    },
-    "NVDA": {
-      "shares": 3,
-      "entry": 225.50999450683594,
-      "stop": 224.38,
-      "target": 227.77,
       "pattern": "MA pullback"
     }
   },
@@ -1679,6 +1672,14 @@
       "shares": 3,
       "price": 225.51,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-24T13:44:17-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 3,
+      "price": 223.71,
+      "pnl": -5.4
     }
   ],
   "daily_snapshots": []
