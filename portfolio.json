@@ -1,6 +1,28 @@
 {
-  "cash": 10208.588143157991,
-  "positions": {},
+  "cash": 49.88135380557517,
+  "positions": {
+    "SPY": {
+      "shares": 12,
+      "entry": 765.5,
+      "stop": 761.67,
+      "target": 773.15,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "QQQ": {
+      "shares": 1,
+      "entry": 736.5399780273438,
+      "stop": 732.86,
+      "target": 743.91,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "TQQQ": {
+      "shares": 3,
+      "entry": 77.02999877929688,
+      "stop": 76.64,
+      "target": 77.8,
+      "pattern": "RSI+VWAP reversion"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -1713,6 +1735,30 @@
       "shares": 9,
       "price": 765.49,
       "pnl": -52.29
+    },
+    {
+      "time": "2026-09-28T20:19:22-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 12,
+      "price": 765.5,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-09-28T20:19:22-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 736.54,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-09-28T20:19:24-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 3,
+      "price": 77.03,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
