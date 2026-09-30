@@ -1,5 +1,5 @@
 {
-  "cash": 56.61201501849632,
+  "cash": 56.3837250252102,
   "positions": {
     "SPY": {
       "shares": 12,
@@ -17,10 +17,10 @@
     },
     "NVDA": {
       "shares": 1,
-      "entry": 230.84500122070312,
-      "stop": 229.69,
-      "target": 233.15,
-      "pattern": "MA pullback"
+      "entry": 228.2899932861328,
+      "stop": 227.15,
+      "target": 230.57,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -1775,6 +1775,22 @@
       "shares": 1,
       "price": 230.85,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-09-30T18:28:09-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 228.29,
+      "pnl": -2.56
+    },
+    {
+      "time": "2026-09-30T18:28:09-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 228.29,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
