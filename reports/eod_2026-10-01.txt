@@ -1,0 +1,17 @@
+🔔 END-OF-DAY REPORT · Thursday, October 01
+==========================================
+💰 Account value    $10,198.44
+📈 Day's realized   +$3.68
+📊 All-time P&L     +$198.44 (+1.98%)
+
+Trades opened today:  1
+Trades closed today:  1
+Win rate today:       100%  (1W / 0L)
+Best trade:           NVDA +$3.68
+Worst trade:          NVDA +$3.68
+
+Today's trades:
+  SELL (TAKE-PROFIT) 1 NVDA @ $231.97  (+$3.68)
+  BUY 1 SOXL @ $153.77 [ORB breakout]
+
+Positions still open:  3
