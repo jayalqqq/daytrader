@@ -1,5 +1,5 @@
 {
-  "cash": 56.3837250252102,
+  "cash": 288.23774124530297,
   "positions": {
     "SPY": {
       "shares": 12,
@@ -13,13 +13,6 @@
       "entry": 736.5399780273438,
       "stop": 732.86,
       "target": 743.91,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "NVDA": {
-      "shares": 1,
-      "entry": 228.2899932861328,
-      "stop": 227.15,
-      "target": 230.57,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -1791,6 +1784,14 @@
       "shares": 1,
       "price": 228.29,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-01T14:41:29-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 231.97,
+      "pnl": 3.68
     }
   ],
   "daily_snapshots": []
