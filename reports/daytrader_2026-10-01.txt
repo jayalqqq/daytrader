@@ -1,9 +1,10 @@
-DAY-TRADER · Thursday, October 01 18:41
+DAY-TRADER · Thursday, October 01 22:55
 ----------------------------------------
-Total value:   $10,206.02
-All-time P&L:  +$206.02 (+2.06%)
+Total value:   $10,198.44
+All-time P&L:  +$198.44 (+1.98%)
 Realized P&L:  +$515.04
 Closed trades: 110  |  Win rate: 43%
-Open now:      2
-  SPY: 12 sh @ $765.50 (RSI+VWAP reversion), now $764.56 (-11.28)
-  QQQ: 1 sh @ $736.54 (RSI+VWAP reversion), now $743.06 (+6.52)
+Open now:      3
+  SPY: 12 sh @ $765.50 (RSI+VWAP reversion), now $764.02 (-17.76)
+  QQQ: 1 sh @ $736.54 (RSI+VWAP reversion), now $742.04 (+5.50)
+  SOXL: 1 sh @ $153.77 (ORB breakout), now $153.77 (+0.00)

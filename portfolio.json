@@ -1,5 +1,5 @@
 {
-  "cash": 288.23774124530297,
+  "cash": 134.39085197070582,
   "positions": {
     "SPY": {
       "shares": 12,
@@ -14,6 +14,13 @@
       "stop": 732.86,
       "target": 743.91,
       "pattern": "RSI+VWAP reversion"
+    },
+    "SOXL": {
+      "shares": 1,
+      "entry": 153.77000427246094,
+      "stop": 153.0,
+      "target": 155.31,
+      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -1792,6 +1799,14 @@
       "shares": 1,
       "price": 231.97,
       "pnl": 3.68
+    },
+    {
+      "time": "2026-10-01T18:55:28-04:00",
+      "action": "BUY",
+      "ticker": "SOXL",
+      "shares": 1,
+      "price": 153.77,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []
