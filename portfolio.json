@@ -1,5 +1,5 @@
 {
-  "cash": 134.39085197070582,
+  "cash": 380.5016126365995,
   "positions": {
     "SPY": {
       "shares": 12,
@@ -8,19 +8,12 @@
       "target": 773.15,
       "pattern": "RSI+VWAP reversion"
     },
-    "QQQ": {
-      "shares": 1,
-      "entry": 736.5399780273438,
-      "stop": 732.86,
-      "target": 743.91,
+    "AAPL": {
+      "shares": 2,
+      "entry": 332.80010986328125,
+      "stop": 331.14,
+      "target": 336.13,
       "pattern": "RSI+VWAP reversion"
-    },
-    "SOXL": {
-      "shares": 1,
-      "entry": 153.77000427246094,
-      "stop": 153.0,
-      "target": 155.31,
-      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -1807,6 +1800,30 @@
       "shares": 1,
       "price": 153.77,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-10-02T14:12:32-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 748.9,
+      "pnl": 12.36
+    },
+    {
+      "time": "2026-10-02T14:12:32-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SOXL",
+      "shares": 1,
+      "price": 163.6,
+      "pnl": 9.83
+    },
+    {
+      "time": "2026-10-02T14:12:33-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 332.8,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []

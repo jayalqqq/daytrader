@@ -1,0 +1,9 @@
+DAY-TRADER · Friday, October 02 18:12
+----------------------------------------
+Total value:   $10,274.97
+All-time P&L:  +$274.97 (+2.75%)
+Realized P&L:  +$537.23
+Closed trades: 112  |  Win rate: 44%
+Open now:      2
+  SPY: 12 sh @ $765.50 (RSI+VWAP reversion), now $769.07 (+42.84)
+  AAPL: 2 sh @ $332.80 (RSI+VWAP reversion), now $332.82 (+0.03)
