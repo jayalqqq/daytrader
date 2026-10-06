@@ -1,8 +1,8 @@
 🔔 END-OF-DAY REPORT · Tuesday, October 06
 ==========================================
-💰 Account value    $10,344.90
+💰 Account value    $10,395.62
 📈 Day's realized   +$0.00
-📊 All-time P&L     +$344.90 (+3.45%)
+📊 All-time P&L     +$395.62 (+3.96%)
 
 Trades opened today:  0
 Trades closed today:  0
