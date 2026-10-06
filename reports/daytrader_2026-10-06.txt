@@ -1,10 +1,10 @@
-DAY-TRADER · Tuesday, October 06 18:45
+DAY-TRADER · Tuesday, October 06 22:52
 ----------------------------------------
-Total value:   $10,403.85
-All-time P&L:  +$403.85 (+4.04%)
+Total value:   $10,395.62
+All-time P&L:  +$395.62 (+3.96%)
 Realized P&L:  +$658.99
 Closed trades: 114  |  Win rate: 45%
 Open now:      3
-  AAPL: 2 sh @ $332.80 (RSI+VWAP reversion), now $333.41 (+1.22)
-  SPY: 11 sh @ $774.94 (MA pullback), now $779.84 (+53.91)
-  QQQ: 1 sh @ $756.15 (MA pullback), now $760.63 (+4.48)
+  AAPL: 2 sh @ $332.80 (RSI+VWAP reversion), now $333.66 (+1.72)
+  SPY: 11 sh @ $774.94 (MA pullback), now $779.14 (+46.20)
+  QQQ: 1 sh @ $756.15 (MA pullback), now $759.61 (+3.46)
