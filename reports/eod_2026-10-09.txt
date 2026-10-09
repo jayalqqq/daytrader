@@ -1,14 +1,19 @@
 🔔 END-OF-DAY REPORT · Friday, October 09
 ==========================================
-💰 Account value    $10,326.74
-📈 Day's realized   +$0.00
-📊 All-time P&L     +$326.74 (+3.27%)
+💰 Account value    $10,366.02
+📈 Day's realized   $-13.35
+📊 All-time P&L     +$366.02 (+3.66%)
 
-Trades opened today:  0
-Trades closed today:  0
-No trades closed today.
+Trades opened today:  2
+Trades closed today:  2
+Win rate today:       0%  (0W / 2L)
+Best trade:           META $-4.66
+Worst trade:          AAPL $-8.69
 
 Today's trades:
-  (none)
+  SELL (STOP-LOSS) 1 META @ $718.15  ($-4.66)
+  SELL (STOP-LOSS) 2 AAPL @ $336.67  ($-8.69)
+  BUY 2 QQQ @ $751.11 [MA pullback]
+  BUY 1 NVDA @ $229.60 [MA pullback]
 
 Positions still open:  3
