@@ -1,0 +1,10 @@
+DAY-TRADER · Friday, October 09 00:18
+----------------------------------------
+Total value:   $10,326.74
+All-time P&L:  +$326.74 (+3.27%)
+Realized P&L:  +$657.60
+Closed trades: 116  |  Win rate: 45%
+Open now:      3
+  SPY: 11 sh @ $774.94 (MA pullback), now $773.89 (-11.55)
+  META: 1 sh @ $722.81 (MA pullback), now $720.84 (-1.97)
+  AAPL: 2 sh @ $341.01 (MA pullback), now $340.42 (-1.18)
