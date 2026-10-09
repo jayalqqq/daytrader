@@ -1,5 +1,5 @@
 {
-  "cash": 412.27091086963105,
+  "cash": 70.37433294299564,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -8,18 +8,18 @@
       "target": 782.69,
       "pattern": "MA pullback"
     },
-    "META": {
-      "shares": 1,
-      "entry": 722.8099975585938,
-      "stop": 719.2,
-      "target": 730.04,
+    "QQQ": {
+      "shares": 2,
+      "entry": 751.1099853515625,
+      "stop": 747.35,
+      "target": 758.62,
       "pattern": "MA pullback"
     },
-    "AAPL": {
-      "shares": 2,
-      "entry": 341.010009765625,
-      "stop": 339.3,
-      "target": 344.42,
+    "NVDA": {
+      "shares": 1,
+      "entry": 229.59500122070312,
+      "stop": 228.45,
+      "target": 231.89,
       "pattern": "MA pullback"
     }
   },
@@ -1902,6 +1902,38 @@
       "ticker": "AAPL",
       "shares": 2,
       "price": 341.01,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-09T14:38:53-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "META",
+      "shares": 1,
+      "price": 718.15,
+      "pnl": -4.66
+    },
+    {
+      "time": "2026-10-09T14:38:53-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 336.67,
+      "pnl": -8.69
+    },
+    {
+      "time": "2026-10-09T14:38:54-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 751.11,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-09T14:38:55-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 229.6,
       "pattern": "MA pullback"
     }
   ],
