@@ -1,5 +1,5 @@
 {
-  "cash": 70.37433294299564,
+  "cash": 56.26968565371945,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -10,16 +10,16 @@
     },
     "QQQ": {
       "shares": 2,
-      "entry": 751.1099853515625,
-      "stop": 747.35,
-      "target": 758.62,
+      "entry": 746.02001953125,
+      "stop": 742.29,
+      "target": 753.48,
       "pattern": "MA pullback"
     },
-    "NVDA": {
-      "shares": 1,
-      "entry": 229.59500122070312,
-      "stop": 228.45,
-      "target": 231.89,
+    "TQQQ": {
+      "shares": 3,
+      "entry": 79.5999984741211,
+      "stop": 79.2,
+      "target": 80.4,
       "pattern": "MA pullback"
     }
   },
@@ -1934,6 +1934,38 @@
       "ticker": "NVDA",
       "shares": 1,
       "price": 229.6,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-12T17:33:04-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 746.02,
+      "pnl": -10.18
+    },
+    {
+      "time": "2026-10-12T17:33:05-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 226.42,
+      "pnl": -3.18
+    },
+    {
+      "time": "2026-10-12T17:33:05-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 746.02,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-12T17:33:06-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 3,
+      "price": 79.6,
       "pattern": "MA pullback"
     }
   ],
