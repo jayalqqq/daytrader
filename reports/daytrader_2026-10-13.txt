@@ -1,10 +1,10 @@
-DAY-TRADER · Tuesday, October 13 19:44
+DAY-TRADER · Tuesday, October 13 23:26
 ----------------------------------------
-Total value:   $10,342.75
-All-time P&L:  +$342.75 (+3.43%)
+Total value:   $10,338.57
+All-time P&L:  +$338.57 (+3.39%)
 Realized P&L:  +$628.40
 Closed trades: 121  |  Win rate: 43%
 Open now:      3
-  SPY: 11 sh @ $774.94 (MA pullback), now $778.50 (+39.16)
-  QQQ: 2 sh @ $746.02 (MA pullback), now $743.46 (-5.12)
-  NVDA: 1 sh @ $228.00 (MA pullback), now $227.99 (-0.01)
+  SPY: 11 sh @ $774.94 (MA pullback), now $778.04 (+34.10)
+  QQQ: 2 sh @ $746.02 (MA pullback), now $743.63 (-4.78)
+  NVDA: 1 sh @ $228.00 (MA pullback), now $228.52 (+0.52)
