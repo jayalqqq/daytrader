@@ -1,0 +1,10 @@
+DAY-TRADER · Tuesday, October 13 01:59
+----------------------------------------
+Total value:   $10,345.88
+All-time P&L:  +$345.88 (+3.46%)
+Realized P&L:  +$630.89
+Closed trades: 120  |  Win rate: 43%
+Open now:      3
+  SPY: 11 sh @ $774.94 (MA pullback), now $778.07 (+34.43)
+  QQQ: 2 sh @ $746.02 (MA pullback), now $746.02 (+0.00)
+  TQQQ: 3 sh @ $79.60 (MA pullback), now $79.60 (+0.00)
