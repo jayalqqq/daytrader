@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Wednesday, October 14
+==========================================
+💰 Account value    $10,199.08
+📈 Day's realized   $-117.17
+📊 All-time P&L     +$199.08 (+1.99%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       0%  (0W / 3L)
+Best trade:           NVDA $-6.84
+Worst trade:          SPY $-75.35
+
+Today's trades:
+  SELL (STOP-LOSS) 11 SPY @ $768.09  ($-75.35)
+  SELL (STOP-LOSS) 2 QQQ @ $728.53  ($-34.98)
+  SELL (STOP-LOSS) 1 NVDA @ $221.16  ($-6.84)
+  BUY 11 SPY @ $768.10 [RSI+VWAP reversion]
+  BUY 2 QQQ @ $728.53 [RSI+VWAP reversion]
+  BUY 3 TQQQ @ $73.98 [RSI+VWAP reversion]
+
+Positions still open:  3
