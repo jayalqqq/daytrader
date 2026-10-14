@@ -1,26 +1,26 @@
 {
-  "cash": 64.34784086230712,
+  "cash": 53.33040653232226,
   "positions": {
     "SPY": {
       "shares": 11,
-      "entry": 774.9400024414062,
-      "stop": 771.07,
-      "target": 782.69,
-      "pattern": "MA pullback"
+      "entry": 768.0999145507812,
+      "stop": 764.26,
+      "target": 775.78,
+      "pattern": "RSI+VWAP reversion"
     },
     "QQQ": {
       "shares": 2,
-      "entry": 746.02001953125,
-      "stop": 742.29,
-      "target": 753.48,
-      "pattern": "MA pullback"
+      "entry": 728.531005859375,
+      "stop": 724.89,
+      "target": 735.82,
+      "pattern": "RSI+VWAP reversion"
     },
-    "NVDA": {
-      "shares": 1,
-      "entry": 228.0,
-      "stop": 226.86,
-      "target": 230.28,
-      "pattern": "MA pullback"
+    "TQQQ": {
+      "shares": 3,
+      "entry": 73.9800033569336,
+      "stop": 73.61,
+      "target": 74.72,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -1983,6 +1983,54 @@
       "shares": 1,
       "price": 228.0,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-14T13:46:43-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 768.09,
+      "pnl": -75.35
+    },
+    {
+      "time": "2026-10-14T13:46:43-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 728.53,
+      "pnl": -34.98
+    },
+    {
+      "time": "2026-10-14T13:46:43-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 221.16,
+      "pnl": -6.84
+    },
+    {
+      "time": "2026-10-14T13:46:43-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 768.1,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-14T13:46:44-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 728.53,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-14T13:46:45-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 3,
+      "price": 73.98,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
