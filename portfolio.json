@@ -1,5 +1,5 @@
 {
-  "cash": 53.33040653232226,
+  "cash": 54.39718743899951,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,12 +15,12 @@
       "target": 735.82,
       "pattern": "RSI+VWAP reversion"
     },
-    "TQQQ": {
-      "shares": 3,
-      "entry": 73.9800033569336,
-      "stop": 73.61,
-      "target": 74.72,
-      "pattern": "RSI+VWAP reversion"
+    "NVDA": {
+      "shares": 1,
+      "entry": 217.56500244140625,
+      "stop": 216.48,
+      "target": 219.74,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -2031,6 +2031,22 @@
       "shares": 3,
       "price": 73.98,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-15T13:35:31-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 3,
+      "price": 72.95,
+      "pnl": -3.09
+    },
+    {
+      "time": "2026-10-15T13:35:33-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 217.57,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
