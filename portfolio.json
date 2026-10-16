@@ -1,26 +1,26 @@
 {
-  "cash": 54.39718743899951,
+  "cash": 44.22682672885429,
   "positions": {
     "SPY": {
       "shares": 11,
-      "entry": 768.0999145507812,
-      "stop": 764.26,
-      "target": 775.78,
+      "entry": 763.9400024414062,
+      "stop": 760.12,
+      "target": 771.58,
       "pattern": "RSI+VWAP reversion"
     },
     "QQQ": {
       "shares": 2,
-      "entry": 728.531005859375,
-      "stop": 724.89,
-      "target": 735.82,
+      "entry": 713.219970703125,
+      "stop": 709.65,
+      "target": 720.35,
       "pattern": "RSI+VWAP reversion"
     },
     "NVDA": {
       "shares": 1,
-      "entry": 217.56500244140625,
-      "stop": 216.48,
-      "target": 219.74,
-      "pattern": "MA pullback"
+      "entry": 215.75,
+      "stop": 214.67,
+      "target": 217.91,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -2047,6 +2047,54 @@
       "shares": 1,
       "price": 217.57,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-16T13:09:56-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 763.94,
+      "pnl": -45.76
+    },
+    {
+      "time": "2026-10-16T13:09:56-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 713.15,
+      "pnl": -30.76
+    },
+    {
+      "time": "2026-10-16T13:09:56-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 215.76,
+      "pnl": -1.8
+    },
+    {
+      "time": "2026-10-16T13:09:56-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 763.94,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-16T13:09:57-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 713.22,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-16T13:09:59-04:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 1,
+      "price": 215.75,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
