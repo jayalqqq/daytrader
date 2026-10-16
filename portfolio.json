@@ -1,6 +1,21 @@
 {
-  "cash": 10068.95208422855,
-  "positions": {},
+  "cash": 293.7769612121931,
+  "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 763.3099975585938,
+      "stop": 759.49,
+      "target": 770.94,
+      "pattern": "MA pullback"
+    },
+    "AAPL": {
+      "shares": 4,
+      "entry": 343.4700012207031,
+      "stop": 341.75,
+      "target": 346.9,
+      "pattern": "MA pullback"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -2097,6 +2112,22 @@
       "shares": 1,
       "price": 214.42,
       "pnl": -1.33
+    },
+    {
+      "time": "2026-10-16T18:41:20-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 763.31,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-16T18:41:20-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 343.47,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
