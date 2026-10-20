@@ -1,5 +1,5 @@
 {
-  "cash": 114.14625144199073,
+  "cash": 62.07258949283303,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -15,12 +15,12 @@
       "target": 726.65,
       "pattern": "MA pullback"
     },
-    "SOXL": {
+    "UPRO": {
       "shares": 1,
-      "entry": 99.62120056152344,
-      "stop": 99.12,
-      "target": 100.62,
-      "pattern": "RSI+VWAP reversion"
+      "entry": 149.63999938964844,
+      "stop": 148.89,
+      "target": 151.14,
+      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -2159,6 +2159,22 @@
       "shares": 1,
       "price": 99.62,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-20T17:15:02-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SOXL",
+      "shares": 1,
+      "price": 97.69,
+      "pnl": -1.93
+    },
+    {
+      "time": "2026-10-20T17:15:07-04:00",
+      "action": "BUY",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 149.64,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []
