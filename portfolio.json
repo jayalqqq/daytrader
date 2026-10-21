@@ -1,5 +1,5 @@
 {
-  "cash": 58.324610672033515,
+  "cash": 58.17937066654039,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -17,10 +17,10 @@
     },
     "TQQQ": {
       "shares": 2,
-      "entry": 73.09500122070312,
-      "stop": 72.73,
-      "target": 73.83,
-      "pattern": "MA pullback"
+      "entry": 72.62000274658203,
+      "stop": 72.26,
+      "target": 73.35,
+      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -2223,6 +2223,22 @@
       "shares": 2,
       "price": 73.1,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-10-21T17:15:19-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 72.62,
+      "pnl": -0.95
+    },
+    {
+      "time": "2026-10-21T17:15:23-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 72.62,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []
