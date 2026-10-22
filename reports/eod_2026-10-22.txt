@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Thursday, October 22
+==========================================
+💰 Account value    $9,982.92
+📈 Day's realized   $-179.10
+📊 All-time P&L     $-17.08 (-0.17%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       0%  (0W / 3L)
+Best trade:           TQQQ $-11.98
+Worst trade:          SPY $-124.19
+
+Today's trades:
+  SELL (STOP-LOSS) 11 SPY @ $762.80  ($-124.19)
+  SELL (STOP-LOSS) 2 QQQ @ $705.34  ($-42.93)
+  SELL (STOP-LOSS) 2 TQQQ @ $66.63  ($-11.98)
+  BUY 11 SPY @ $763.99 [Momentum breakout]
+  BUY 2 META @ $648.91 [Momentum breakout]
+  BUY 1 UPRO @ $146.55 [Momentum breakout]
+
+Positions still open:  3
