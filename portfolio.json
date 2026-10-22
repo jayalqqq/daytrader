@@ -1,28 +1,6 @@
 {
-  "cash": 58.17937066654039,
-  "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 774.0899047851562,
-      "stop": 770.22,
-      "target": 781.83,
-      "pattern": "MA pullback"
-    },
-    "QQQ": {
-      "shares": 2,
-      "entry": 726.8049926757812,
-      "stop": 723.17,
-      "target": 734.07,
-      "pattern": "MA pullback"
-    },
-    "TQQQ": {
-      "shares": 2,
-      "entry": 72.62000274658203,
-      "stop": 72.26,
-      "target": 73.35,
-      "pattern": "ORB breakout"
-    }
-  },
+  "cash": 9987.955315658606,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -2239,6 +2217,30 @@
       "shares": 2,
       "price": 72.62,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-10-22T13:51:04-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 762.8,
+      "pnl": -124.19
+    },
+    {
+      "time": "2026-10-22T13:51:04-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 705.34,
+      "pnl": -42.93
+    },
+    {
+      "time": "2026-10-22T13:51:04-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 66.63,
+      "pnl": -11.98
     }
   ],
   "daily_snapshots": []
