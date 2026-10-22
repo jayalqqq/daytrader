@@ -1,6 +1,28 @@
 {
-  "cash": 9987.955315658606,
-  "positions": {},
+  "cash": 134.7713438187027,
+  "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 763.989990234375,
+      "stop": 760.17,
+      "target": 771.63,
+      "pattern": "Momentum breakout"
+    },
+    "META": {
+      "shares": 2,
+      "entry": 648.9099731445312,
+      "stop": 645.67,
+      "target": 655.4,
+      "pattern": "Momentum breakout"
+    },
+    "UPRO": {
+      "shares": 1,
+      "entry": 146.5500030517578,
+      "stop": 145.82,
+      "target": 148.02,
+      "pattern": "Momentum breakout"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -2241,6 +2263,30 @@
       "shares": 2,
       "price": 66.63,
       "pnl": -11.98
+    },
+    {
+      "time": "2026-10-22T17:12:03-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 763.99,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-10-22T17:12:06-04:00",
+      "action": "BUY",
+      "ticker": "META",
+      "shares": 2,
+      "price": 648.91,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-10-22T17:12:08-04:00",
+      "action": "BUY",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 146.55,
+      "pattern": "Momentum breakout"
     }
   ],
   "daily_snapshots": []

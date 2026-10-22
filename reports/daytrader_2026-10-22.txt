@@ -1,7 +1,10 @@
-DAY-TRADER · Thursday, October 22 17:51
+DAY-TRADER · Thursday, October 22 21:12
 ----------------------------------------
-Total value:   $9,987.96
-All-time P&L:  $-12.04 (-0.12%)
+Total value:   $9,983.03
+All-time P&L:  $-16.97 (-0.17%)
 Realized P&L:  +$354.72
 Closed trades: 140  |  Win rate: 39%
-Open now:      0
+Open now:      3
+  SPY: 11 sh @ $763.99 (Momentum breakout), now $763.99 (+0.00)
+  META: 2 sh @ $648.91 (Momentum breakout), now $648.91 (+0.00)
+  UPRO: 1 sh @ $146.55 (Momentum breakout), now $146.55 (+0.00)
