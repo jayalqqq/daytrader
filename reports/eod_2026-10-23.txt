@@ -1,0 +1,23 @@
+🔔 END-OF-DAY REPORT · Friday, October 23
+==========================================
+💰 Account value    $9,915.78
+📈 Day's realized   $-54.84
+📊 All-time P&L     $-84.22 (-0.84%)
+
+Trades opened today:  4
+Trades closed today:  4
+Win rate today:       0%  (0W / 4L)
+Best trade:           TQQQ $-0.69
+Worst trade:          SPY $-44.88
+
+Today's trades:
+  SELL (STOP-LOSS) 2 META @ $645.28  ($-7.27)
+  SELL (STOP-LOSS) 1 UPRO @ $144.55  ($-2.00)
+  BUY 2 QQQ @ $705.65 [RSI+VWAP reversion]
+  BUY 2 TQQQ @ $66.64 [RSI+VWAP reversion]
+  SELL (STOP-LOSS) 11 SPY @ $759.91  ($-44.88)
+  SELL (STOP-LOSS) 2 TQQQ @ $66.29  ($-0.69)
+  BUY 10 SPY @ $759.91 [RSI+VWAP reversion]
+  BUY 2 AAPL @ $347.73 [MA pullback]
+
+Positions still open:  3
