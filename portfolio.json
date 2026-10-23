@@ -1,13 +1,6 @@
 {
-  "cash": 23.808106536903637,
+  "cash": 212.45499958042342,
   "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 763.989990234375,
-      "stop": 760.17,
-      "target": 771.63,
-      "pattern": "Momentum breakout"
-    },
     "QQQ": {
       "shares": 2,
       "entry": 705.6500244140625,
@@ -15,12 +8,19 @@
       "target": 712.71,
       "pattern": "RSI+VWAP reversion"
     },
-    "TQQQ": {
-      "shares": 2,
-      "entry": 66.63500213623047,
-      "stop": 66.3,
-      "target": 67.3,
+    "SPY": {
+      "shares": 10,
+      "entry": 759.9099731445312,
+      "stop": 756.11,
+      "target": 767.51,
       "pattern": "RSI+VWAP reversion"
+    },
+    "AAPL": {
+      "shares": 2,
+      "entry": 347.7250061035156,
+      "stop": 345.99,
+      "target": 351.2,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -2319,6 +2319,38 @@
       "shares": 2,
       "price": 66.64,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-23T16:39:40-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 759.91,
+      "pnl": -44.88
+    },
+    {
+      "time": "2026-10-23T16:39:40-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 66.29,
+      "pnl": -0.69
+    },
+    {
+      "time": "2026-10-23T16:39:40-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 10,
+      "price": 759.91,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-23T16:39:41-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 347.73,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
