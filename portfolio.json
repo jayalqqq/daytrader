@@ -1,5 +1,5 @@
 {
-  "cash": 134.7713438187027,
+  "cash": 23.808106536903637,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -8,19 +8,19 @@
       "target": 771.63,
       "pattern": "Momentum breakout"
     },
-    "META": {
+    "QQQ": {
       "shares": 2,
-      "entry": 648.9099731445312,
-      "stop": 645.67,
-      "target": 655.4,
-      "pattern": "Momentum breakout"
+      "entry": 705.6500244140625,
+      "stop": 702.12,
+      "target": 712.71,
+      "pattern": "RSI+VWAP reversion"
     },
-    "UPRO": {
-      "shares": 1,
-      "entry": 146.5500030517578,
-      "stop": 145.82,
-      "target": 148.02,
-      "pattern": "Momentum breakout"
+    "TQQQ": {
+      "shares": 2,
+      "entry": 66.63500213623047,
+      "stop": 66.3,
+      "target": 67.3,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -2287,6 +2287,38 @@
       "shares": 1,
       "price": 146.55,
       "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-10-23T13:42:00-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "META",
+      "shares": 2,
+      "price": 645.28,
+      "pnl": -7.27
+    },
+    {
+      "time": "2026-10-23T13:42:01-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "UPRO",
+      "shares": 1,
+      "price": 144.55,
+      "pnl": -2.0
+    },
+    {
+      "time": "2026-10-23T13:42:01-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 705.65,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-23T13:42:03-04:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 66.64,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
