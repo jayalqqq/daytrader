@@ -1,7 +1,10 @@
-DAY-TRADER · Tuesday, October 27 18:33
+DAY-TRADER · Tuesday, October 27 22:37
 ----------------------------------------
-Total value:   $10,014.97
-All-time P&L:  +$14.97 (+0.15%)
+Total value:   $10,010.03
+All-time P&L:  +$10.03 (+0.10%)
 Realized P&L:  +$402.08
 Closed trades: 148  |  Win rate: 39%
-Open now:      0
+Open now:      3
+  SPY: 11 sh @ $769.72 (ORB breakout), now $769.72 (+0.00)
+  QQQ: 1 sh @ $721.24 (MA pullback), now $721.24 (+0.00)
+  AAPL: 2 sh @ $347.09 (MA pullback), now $347.09 (+0.00)
