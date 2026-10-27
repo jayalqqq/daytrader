@@ -1,28 +1,6 @@
 {
-  "cash": 265.30600113682,
-  "positions": {
-    "QQQ": {
-      "shares": 2,
-      "entry": 705.6500244140625,
-      "stop": 702.12,
-      "target": 712.71,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "SPY": {
-      "shares": 10,
-      "entry": 759.9099731445312,
-      "stop": 756.11,
-      "target": 767.51,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "META": {
-      "shares": 1,
-      "entry": 632.0701904296875,
-      "stop": 628.91,
-      "target": 638.39,
-      "pattern": "RSI+VWAP reversion"
-    }
-  },
+  "cash": 10014.968831184427,
+  "positions": {},
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -2367,6 +2345,30 @@
       "shares": 1,
       "price": 632.07,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-27T14:32:59-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "QQQ",
+      "shares": 2,
+      "price": 720.39,
+      "pnl": 29.48
+    },
+    {
+      "time": "2026-10-27T14:32:59-04:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SPY",
+      "shares": 10,
+      "price": 769.14,
+      "pnl": 92.25
+    },
+    {
+      "time": "2026-10-27T14:33:00-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "META",
+      "shares": 1,
+      "price": 622.41,
+      "pnl": -9.66
     }
   ],
   "daily_snapshots": []
