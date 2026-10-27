@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Tuesday, October 27
+==========================================
+💰 Account value    $10,010.03
+📈 Day's realized   +$112.07
+📊 All-time P&L     +$10.03 (+0.10%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       67%  (2W / 1L)
+Best trade:           SPY +$92.25
+Worst trade:          META $-9.66
+
+Today's trades:
+  SELL (TAKE-PROFIT) 2 QQQ @ $720.39  (+$29.48)
+  SELL (TAKE-PROFIT) 10 SPY @ $769.14  (+$92.25)
+  SELL (STOP-LOSS) 1 META @ $622.41  ($-9.66)
+  BUY 11 SPY @ $769.72 [ORB breakout]
+  BUY 1 QQQ @ $721.24 [MA pullback]
+  BUY 2 AAPL @ $347.09 [MA pullback]
+
+Positions still open:  3
