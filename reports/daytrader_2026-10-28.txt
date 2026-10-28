@@ -1,10 +1,10 @@
-DAY-TRADER · Wednesday, October 28 18:39
+DAY-TRADER · Wednesday, October 28 22:51
 ----------------------------------------
-Total value:   $10,035.42
-All-time P&L:  +$35.42 (+0.35%)
+Total value:   $10,038.26
+All-time P&L:  +$38.26 (+0.38%)
 Realized P&L:  +$397.60
 Closed trades: 149  |  Win rate: 38%
 Open now:      3
-  SPY: 11 sh @ $769.72 (ORB breakout), now $772.18 (+27.09)
-  QQQ: 1 sh @ $721.24 (MA pullback), now $724.61 (+3.37)
-  TSLA: 1 sh @ $404.38 (Momentum breakout), now $404.34 (-0.04)
+  SPY: 11 sh @ $769.72 (ORB breakout), now $772.35 (+28.93)
+  QQQ: 1 sh @ $721.24 (MA pullback), now $725.48 (+4.24)
+  TSLA: 1 sh @ $404.38 (Momentum breakout), now $404.46 (+0.08)
