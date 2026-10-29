@@ -1,5 +1,5 @@
 {
-  "cash": 412.46597541050284,
+  "cash": 411.7535853958543,
   "positions": {
     "SPY": {
       "shares": 11,
@@ -8,19 +8,19 @@
       "target": 777.42,
       "pattern": "ORB breakout"
     },
-    "QQQ": {
-      "shares": 1,
-      "entry": 721.239990234375,
-      "stop": 717.63,
-      "target": 728.45,
-      "pattern": "MA pullback"
-    },
     "TSLA": {
       "shares": 1,
       "entry": 404.375,
       "stop": 402.35,
       "target": 408.42,
       "pattern": "Momentum breakout"
+    },
+    "QQQ": {
+      "shares": 1,
+      "entry": 712.3900146484375,
+      "stop": 708.83,
+      "target": 719.51,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -2431,6 +2431,22 @@
       "shares": 1,
       "price": 404.38,
       "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-10-29T14:47:38-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 712.39,
+      "pnl": -8.85
+    },
+    {
+      "time": "2026-10-29T14:47:39-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 712.39,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
