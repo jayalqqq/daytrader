@@ -1,0 +1,21 @@
+🔔 END-OF-DAY REPORT · Friday, October 30
+==========================================
+💰 Account value    $9,802.80
+📈 Day's realized   $-211.42
+📊 All-time P&L     $-197.20 (-1.97%)
+
+Trades opened today:  3
+Trades closed today:  3
+Win rate today:       0%  (0W / 3L)
+Best trade:           TSLA $-9.10
+Worst trade:          SPY $-175.56
+
+Today's trades:
+  SELL (STOP-LOSS) 11 SPY @ $753.76  ($-175.56)
+  SELL (STOP-LOSS) 1 TSLA @ $395.27  ($-9.10)
+  SELL (STOP-LOSS) 1 QQQ @ $685.63  ($-26.76)
+  BUY 11 SPY @ $753.76 [RSI+VWAP reversion]
+  BUY 1 QQQ @ $685.63 [RSI+VWAP reversion]
+  BUY 2 AAPL @ $343.84 [RSI+VWAP reversion]
+
+Positions still open:  3
