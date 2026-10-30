@@ -1,25 +1,25 @@
 {
-  "cash": 411.7535853958543,
+  "cash": 109.83011949924844,
   "positions": {
     "SPY": {
       "shares": 11,
-      "entry": 769.719970703125,
-      "stop": 765.87,
-      "target": 777.42,
-      "pattern": "ORB breakout"
-    },
-    "TSLA": {
-      "shares": 1,
-      "entry": 404.375,
-      "stop": 402.35,
-      "target": 408.42,
-      "pattern": "Momentum breakout"
+      "entry": 753.760009765625,
+      "stop": 749.99,
+      "target": 761.3,
+      "pattern": "RSI+VWAP reversion"
     },
     "QQQ": {
       "shares": 1,
-      "entry": 712.3900146484375,
-      "stop": 708.83,
-      "target": 719.51,
+      "entry": 685.6295166015625,
+      "stop": 682.2,
+      "target": 692.49,
+      "pattern": "RSI+VWAP reversion"
+    },
+    "AAPL": {
+      "shares": 2,
+      "entry": 343.8399963378906,
+      "stop": 342.12,
+      "target": 347.28,
       "pattern": "RSI+VWAP reversion"
     }
   },
@@ -2446,6 +2446,54 @@
       "ticker": "QQQ",
       "shares": 1,
       "price": 712.39,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-30T14:24:54-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 753.76,
+      "pnl": -175.56
+    },
+    {
+      "time": "2026-10-30T14:24:54-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 395.27,
+      "pnl": -9.1
+    },
+    {
+      "time": "2026-10-30T14:24:54-04:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 685.63,
+      "pnl": -26.76
+    },
+    {
+      "time": "2026-10-30T14:24:54-04:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 753.76,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-30T14:24:54-04:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 685.63,
+      "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-10-30T14:24:55-04:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 343.84,
       "pattern": "RSI+VWAP reversion"
     }
   ],
