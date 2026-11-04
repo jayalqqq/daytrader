@@ -1,10 +1,10 @@
-DAY-TRADER · Wednesday, November 04 00:33
+DAY-TRADER · Wednesday, November 04 20:16
 ----------------------------------------
-Total value:   $9,743.02
-All-time P&L:  $-256.98 (-2.57%)
-Realized P&L:  +$136.66
-Closed trades: 156  |  Win rate: 37%
+Total value:   $9,926.59
+All-time P&L:  $-73.41 (-0.73%)
+Realized P&L:  +$342.02
+Closed trades: 159  |  Win rate: 38%
 Open now:      3
-  SPY: 11 sh @ $753.76 (RSI+VWAP reversion), now $754.41 (+7.15)
-  QQQ: 1 sh @ $683.99 (RSI+VWAP reversion), now $685.34 (+1.35)
-  AAPL: 2 sh @ $330.21 (RSI+VWAP reversion), now $331.74 (+3.05)
+  QQQ: 12 sh @ $692.68 (RSI+VWAP reversion), now $692.64 (-0.48)
+  NVDA: 7 sh @ $202.32 (RSI+VWAP reversion), now $202.33 (+0.07)
+  TQQQ: 2 sh @ $62.43 (RSI+VWAP reversion), now $62.43 (+0.00)
