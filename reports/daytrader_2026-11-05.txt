@@ -1,0 +1,10 @@
+DAY-TRADER · Thursday, November 05 00:51
+----------------------------------------
+Total value:   $9,900.69
+All-time P&L:  $-99.31 (-0.99%)
+Realized P&L:  +$327.77
+Closed trades: 160  |  Win rate: 38%
+Open now:      3
+  QQQ: 12 sh @ $692.68 (RSI+VWAP reversion), now $691.82 (-10.32)
+  TQQQ: 2 sh @ $62.43 (RSI+VWAP reversion), now $62.21 (-0.44)
+  NVDA: 6 sh @ $200.29 (RSI+VWAP reversion), now $200.29 (+0.00)
