@@ -1,26 +1,26 @@
 {
-  "cash": 272.7250216522666,
+  "cash": 28.49737641148326,
   "positions": {
     "QQQ": {
       "shares": 12,
-      "entry": 692.6799926757812,
-      "stop": 689.22,
-      "target": 699.61,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "TQQQ": {
-      "shares": 2,
-      "entry": 62.43000030517578,
-      "stop": 62.12,
-      "target": 63.05,
-      "pattern": "RSI+VWAP reversion"
+      "entry": 652.5750122070312,
+      "stop": 649.31,
+      "target": 659.1,
+      "pattern": "MA pullback"
     },
     "NVDA": {
-      "shares": 6,
-      "entry": 200.28500366210938,
-      "stop": 199.28,
-      "target": 202.29,
-      "pattern": "RSI+VWAP reversion"
+      "shares": 7,
+      "entry": 183.69410705566406,
+      "stop": 182.78,
+      "target": 185.53,
+      "pattern": "MA pullback"
+    },
+    "TQQQ": {
+      "shares": 3,
+      "entry": 51.61000061035156,
+      "stop": 51.35,
+      "target": 52.13,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -2607,6 +2607,54 @@
       "shares": 6,
       "price": 200.29,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-11-05T15:28:04-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 12,
+      "price": 652.59,
+      "pnl": -481.08
+    },
+    {
+      "time": "2026-11-05T15:28:04-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 51.62,
+      "pnl": -21.62
+    },
+    {
+      "time": "2026-11-05T15:28:04-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 6,
+      "price": 183.7,
+      "pnl": -99.51
+    },
+    {
+      "time": "2026-11-05T15:28:05-05:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 12,
+      "price": 652.58,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-05T15:28:05-05:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 7,
+      "price": 183.69,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-05T15:28:06-05:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 3,
+      "price": 51.61,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []
