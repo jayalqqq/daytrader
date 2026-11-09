@@ -1,26 +1,26 @@
 {
-  "cash": 119.74348859600889,
+  "cash": 55.406174348879176,
   "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 733.1300048828125,
-      "stop": 729.46,
-      "target": 740.46,
-      "pattern": "RSI+VWAP reversion"
-    },
-    "SOXL": {
-      "shares": 8,
-      "entry": 45.83000183105469,
-      "stop": 45.6,
-      "target": 46.29,
-      "pattern": "MA pullback"
+    "QQQ": {
+      "shares": 12,
+      "entry": 678.760009765625,
+      "stop": 675.37,
+      "target": 685.55,
+      "pattern": "ORB breakout"
     },
     "AAPL": {
-      "shares": 2,
-      "entry": 342.364990234375,
-      "stop": 340.65,
-      "target": 345.79,
-      "pattern": "RSI+VWAP reversion"
+      "shares": 3,
+      "entry": 350.489990234375,
+      "stop": 348.74,
+      "target": 353.99,
+      "pattern": "ORB breakout"
+    },
+    "TQQQ": {
+      "shares": 5,
+      "entry": 57.58000183105469,
+      "stop": 57.29,
+      "target": 58.16,
+      "pattern": "ORB breakout"
     }
   },
   "history": [
@@ -2751,6 +2751,54 @@
       "shares": 2,
       "price": 342.36,
       "pattern": "RSI+VWAP reversion"
+    },
+    {
+      "time": "2026-11-09T17:51:48-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 752.61,
+      "pnl": 214.28
+    },
+    {
+      "time": "2026-11-09T17:51:48-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SOXL",
+      "shares": 8,
+      "price": 56.24,
+      "pnl": 83.28
+    },
+    {
+      "time": "2026-11-09T17:51:48-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AAPL",
+      "shares": 2,
+      "price": 350.49,
+      "pnl": 16.25
+    },
+    {
+      "time": "2026-11-09T17:51:49-05:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 12,
+      "price": 678.76,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-11-09T17:51:50-05:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 3,
+      "price": 350.49,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-11-09T17:51:53-05:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 5,
+      "price": 57.58,
+      "pattern": "ORB breakout"
     }
   ],
   "daily_snapshots": []
