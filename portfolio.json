@@ -1,26 +1,26 @@
 {
-  "cash": 55.406174348879176,
+  "cash": 159.10346362309673,
   "positions": {
+    "SPY": {
+      "shares": 11,
+      "entry": 748.8798828125,
+      "stop": 745.14,
+      "target": 756.37,
+      "pattern": "MA pullback"
+    },
     "QQQ": {
-      "shares": 12,
-      "entry": 678.760009765625,
-      "stop": 675.37,
-      "target": 685.55,
-      "pattern": "ORB breakout"
+      "shares": 1,
+      "entry": 673.02001953125,
+      "stop": 669.65,
+      "target": 679.75,
+      "pattern": "MA pullback"
     },
-    "AAPL": {
-      "shares": 3,
-      "entry": 350.489990234375,
-      "stop": 348.74,
-      "target": 353.99,
-      "pattern": "ORB breakout"
-    },
-    "TQQQ": {
-      "shares": 5,
-      "entry": 57.58000183105469,
-      "stop": 57.29,
-      "target": 58.16,
-      "pattern": "ORB breakout"
+    "TSLA": {
+      "shares": 1,
+      "entry": 377.6700134277344,
+      "stop": 375.78,
+      "target": 381.45,
+      "pattern": "MA pullback"
     }
   },
   "history": [
@@ -2799,6 +2799,54 @@
       "shares": 5,
       "price": 57.58,
       "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-11-10T15:12:10-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "QQQ",
+      "shares": 12,
+      "price": 672.99,
+      "pnl": -69.18
+    },
+    {
+      "time": "2026-11-10T15:12:11-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 3,
+      "price": 348.34,
+      "pnl": -6.45
+    },
+    {
+      "time": "2026-11-10T15:12:11-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "TQQQ",
+      "shares": 5,
+      "price": 56.09,
+      "pnl": -7.45
+    },
+    {
+      "time": "2026-11-10T15:12:11-05:00",
+      "action": "BUY",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 748.88,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-10T15:12:11-05:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 673.02,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-10T15:12:12-05:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 377.67,
+      "pattern": "MA pullback"
     }
   ],
   "daily_snapshots": []

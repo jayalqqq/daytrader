@@ -1,10 +1,10 @@
-DAY-TRADER · Tuesday, November 10 02:41
+DAY-TRADER · Tuesday, November 10 20:12
 ----------------------------------------
-Total value:   $9,539.90
-All-time P&L:  $-460.10 (-4.60%)
-Realized P&L:  $-14.27
-Closed trades: 172  |  Win rate: 38%
+Total value:   $9,447.53
+All-time P&L:  $-552.47 (-5.52%)
+Realized P&L:  $-97.35
+Closed trades: 175  |  Win rate: 37%
 Open now:      3
-  QQQ: 12 sh @ $678.76 (ORB breakout), now $678.76 (+0.00)
-  AAPL: 3 sh @ $350.49 (ORB breakout), now $350.49 (+0.00)
-  TQQQ: 5 sh @ $57.58 (ORB breakout), now $57.58 (+0.00)
+  SPY: 11 sh @ $748.88 (MA pullback), now $748.89 (+0.11)
+  QQQ: 1 sh @ $673.02 (MA pullback), now $673.02 (+0.00)
+  TSLA: 1 sh @ $377.67 (MA pullback), now $377.62 (-0.05)
