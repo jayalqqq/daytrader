@@ -1,26 +1,12 @@
 {
-  "cash": 159.10346362309673,
+  "cash": 994.2466867218518,
   "positions": {
-    "SPY": {
-      "shares": 11,
-      "entry": 748.8798828125,
-      "stop": 745.14,
-      "target": 756.37,
-      "pattern": "MA pullback"
-    },
-    "QQQ": {
-      "shares": 1,
-      "entry": 673.02001953125,
-      "stop": 669.65,
-      "target": 679.75,
-      "pattern": "MA pullback"
-    },
-    "TSLA": {
-      "shares": 1,
-      "entry": 377.6700134277344,
-      "stop": 375.78,
-      "target": 381.45,
-      "pattern": "MA pullback"
+    "NVDA": {
+      "shares": 49,
+      "entry": 175.60000610351562,
+      "stop": 174.72,
+      "target": 177.36,
+      "pattern": "RSI+VWAP reversion"
     }
   },
   "history": [
@@ -2847,6 +2833,38 @@
       "shares": 1,
       "price": 377.67,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-11T14:59:46-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "SPY",
+      "shares": 11,
+      "price": 760.44,
+      "pnl": 127.16
+    },
+    {
+      "time": "2026-11-11T14:59:46-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "QQQ",
+      "shares": 1,
+      "price": 692.04,
+      "pnl": 19.02
+    },
+    {
+      "time": "2026-11-11T14:59:47-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "TSLA",
+      "shares": 1,
+      "price": 391.69,
+      "pnl": 14.02
+    },
+    {
+      "time": "2026-11-11T14:59:47-05:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 49,
+      "price": 175.6,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
