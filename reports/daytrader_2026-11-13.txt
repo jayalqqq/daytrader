@@ -1,10 +1,8 @@
-DAY-TRADER · Friday, November 13 01:28
+DAY-TRADER · Friday, November 13 20:19
 ----------------------------------------
-Total value:   $9,472.23
-All-time P&L:  $-527.77 (-5.28%)
-Realized P&L:  $-22.90
-Closed trades: 179  |  Win rate: 38%
-Open now:      3
-  SPY: 11 sh @ $759.79 (ORB breakout), now $757.19 (-28.60)
-  QQQ: 1 sh @ $690.38 (ORB breakout), now $688.17 (-2.21)
-  AAPL: 1 sh @ $355.79 (Momentum breakout), now $354.89 (-0.90)
+Total value:   $9,421.79
+All-time P&L:  $-578.21 (-5.78%)
+Realized P&L:  $-101.92
+Closed trades: 181  |  Win rate: 38%
+Open now:      1
+  AAPL: 1 sh @ $355.79 (Momentum breakout), now $357.14 (+1.35)
