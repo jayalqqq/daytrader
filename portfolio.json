@@ -1,19 +1,19 @@
 {
-  "cash": 1356.9147844696536,
+  "cash": 168.99278053288708,
   "positions": {
     "AAPL": {
-      "shares": 1,
-      "entry": 355.7900085449219,
-      "stop": 354.01,
-      "target": 359.35,
+      "shares": 23,
+      "entry": 352.80999755859375,
+      "stop": 351.05,
+      "target": 356.34,
       "pattern": "Momentum breakout"
     },
-    "META": {
-      "shares": 12,
-      "entry": 641.989990234375,
-      "stop": 638.78,
-      "target": 648.41,
-      "pattern": "MA pullback"
+    "NVDA": {
+      "shares": 6,
+      "entry": 156.16000366210938,
+      "stop": 155.38,
+      "target": 157.72,
+      "pattern": "Momentum breakout"
     }
   },
   "history": [
@@ -2928,6 +2928,38 @@
       "shares": 12,
       "price": 641.99,
       "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-16T17:44:12-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "AAPL",
+      "shares": 1,
+      "price": 352.81,
+      "pnl": -2.98
+    },
+    {
+      "time": "2026-11-16T17:44:12-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "META",
+      "shares": 12,
+      "price": 626.61,
+      "pnl": -184.56
+    },
+    {
+      "time": "2026-11-16T17:44:12-05:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 23,
+      "price": 352.81,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-16T17:44:12-05:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 6,
+      "price": 156.16,
+      "pattern": "Momentum breakout"
     }
   ],
   "daily_snapshots": []
