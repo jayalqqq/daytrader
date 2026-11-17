@@ -1,5 +1,5 @@
 {
-  "cash": 168.99278053288708,
+  "cash": 65.20091267018567,
   "positions": {
     "AAPL": {
       "shares": 23,
@@ -13,6 +13,13 @@
       "entry": 156.16000366210938,
       "stop": 155.38,
       "target": 157.72,
+      "pattern": "Momentum breakout"
+    },
+    "TQQQ": {
+      "shares": 2,
+      "entry": 51.869998931884766,
+      "stop": 51.61,
+      "target": 52.39,
       "pattern": "Momentum breakout"
     }
   },
@@ -2959,6 +2966,14 @@
       "ticker": "NVDA",
       "shares": 6,
       "price": 156.16,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-17T16:30:04-05:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 51.87,
       "pattern": "Momentum breakout"
     }
   ],
