@@ -1,0 +1,10 @@
+DAY-TRADER · Wednesday, November 18 02:23
+----------------------------------------
+Total value:   $9,195.92
+All-time P&L:  $-804.08 (-8.04%)
+Realized P&L:  $-289.46
+Closed trades: 183  |  Win rate: 37%
+Open now:      3
+  AAPL: 23 sh @ $352.81 (Momentum breakout), now $351.92 (-20.47)
+  NVDA: 6 sh @ $156.16 (Momentum breakout), now $155.47 (-4.14)
+  TQQQ: 2 sh @ $51.87 (Momentum breakout), now $51.87 (+0.00)
