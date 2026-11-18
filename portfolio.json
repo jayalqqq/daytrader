@@ -1,5 +1,5 @@
 {
-  "cash": 65.20091267018567,
+  "cash": 100.0403359375502,
   "positions": {
     "AAPL": {
       "shares": 23,
@@ -8,18 +8,18 @@
       "target": 356.34,
       "pattern": "Momentum breakout"
     },
-    "NVDA": {
-      "shares": 6,
-      "entry": 156.16000366210938,
-      "stop": 155.38,
-      "target": 157.72,
+    "AMD": {
+      "shares": 1,
+      "entry": 530.8099975585938,
+      "stop": 528.16,
+      "target": 536.12,
       "pattern": "Momentum breakout"
     },
-    "TQQQ": {
-      "shares": 2,
-      "entry": 51.869998931884766,
-      "stop": 51.61,
-      "target": 52.39,
+    "SOXL": {
+      "shares": 9,
+      "entry": 49.27870178222656,
+      "stop": 49.03,
+      "target": 49.77,
       "pattern": "Momentum breakout"
     }
   },
@@ -2974,6 +2974,38 @@
       "ticker": "TQQQ",
       "shares": 2,
       "price": 51.87,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-18T16:05:27-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "NVDA",
+      "shares": 6,
+      "price": 150.87,
+      "pnl": -31.74
+    },
+    {
+      "time": "2026-11-18T16:05:28-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "TQQQ",
+      "shares": 2,
+      "price": 52.47,
+      "pnl": 1.19
+    },
+    {
+      "time": "2026-11-18T16:05:28-05:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "shares": 1,
+      "price": 530.81,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-18T16:05:29-05:00",
+      "action": "BUY",
+      "ticker": "SOXL",
+      "shares": 9,
+      "price": 49.28,
       "pattern": "Momentum breakout"
     }
   ],
