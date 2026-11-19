@@ -1,10 +1,10 @@
-DAY-TRADER · Thursday, November 19 01:51
+DAY-TRADER · Thursday, November 19 21:10
 ----------------------------------------
-Total value:   $9,177.31
-All-time P&L:  $-822.69 (-8.23%)
-Realized P&L:  $-320.01
-Closed trades: 185  |  Win rate: 37%
+Total value:   $9,017.27
+All-time P&L:  $-982.73 (-9.83%)
+Realized P&L:  $-482.78
+Closed trades: 188  |  Win rate: 37%
 Open now:      3
-  AAPL: 23 sh @ $352.81 (Momentum breakout), now $352.29 (-11.96)
-  AMD: 1 sh @ $530.81 (Momentum breakout), now $530.81 (+0.00)
-  SOXL: 9 sh @ $49.28 (Momentum breakout), now $49.31 (+0.28)
+  SPY: 11 sh @ $715.81 (RSI+VWAP reversion), now $715.81 (+0.00)
+  QQQ: 1 sh @ $645.10 (RSI+VWAP reversion), now $645.10 (+0.00)
+  NVDA: 3 sh @ $146.00 (RSI+VWAP reversion), now $146.00 (+0.00)
