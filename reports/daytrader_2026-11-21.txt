@@ -1,0 +1,8 @@
+DAY-TRADER · Saturday, November 21 01:26
+----------------------------------------
+Total value:   $8,632.80
+All-time P&L:  $-1,367.20 (-13.67%)
+Realized P&L:  $-859.12
+Closed trades: 191  |  Win rate: 36%
+Open now:      1
+  NVDA: 61 sh @ $125.79 (RSI+VWAP reversion), now $125.79 (+0.00)

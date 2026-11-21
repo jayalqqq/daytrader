@@ -1,6 +1,14 @@
 {
-  "cash": 8636.639476587348,
-  "positions": {},
+  "cash": 959.6128257122573,
+  "positions": {
+    "NVDA": {
+      "shares": 61,
+      "entry": 125.79000091552734,
+      "stop": 125.16,
+      "target": 127.05,
+      "pattern": "RSI+VWAP reversion"
+    }
+  },
   "history": [
     {
       "time": "2026-08-03T17:50:06-04:00",
@@ -3057,6 +3065,14 @@
       "shares": 3,
       "price": 127.02,
       "pnl": -56.94
+    },
+    {
+      "time": "2026-11-20T20:26:16-05:00",
+      "action": "BUY",
+      "ticker": "NVDA",
+      "shares": 61,
+      "price": 125.79,
+      "pattern": "RSI+VWAP reversion"
     }
   ],
   "daily_snapshots": []
