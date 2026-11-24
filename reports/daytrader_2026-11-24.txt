@@ -1,10 +1,9 @@
-DAY-TRADER · Tuesday, November 24 04:43
+DAY-TRADER · Tuesday, November 24 22:54
 ----------------------------------------
-Total value:   $11,025.43
-All-time P&L:  +$1,025.43 (+10.25%)
-Realized P&L:  +$1,543.97
-Closed trades: 192  |  Win rate: 36%
-Open now:      3
-  SPY: 13 sh @ $722.39 (MA pullback), now $722.39 (+0.00)
-  QQQ: 2 sh @ $650.87 (MA pullback), now $650.87 (+0.00)
-  NVDA: 1 sh @ $165.18 (MA pullback), now $165.18 (+0.00)
+Total value:   $10,941.94
+All-time P&L:  +$941.94 (+9.42%)
+Realized P&L:  +$1,508.70
+Closed trades: 194  |  Win rate: 36%
+Open now:      2
+  SPY: 13 sh @ $722.39 (MA pullback), now $718.79 (-46.80)
+  AAPL: 4 sh @ $354.19 (Momentum breakout), now $354.19 (+0.00)
