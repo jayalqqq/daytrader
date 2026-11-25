@@ -1,18 +1,25 @@
 {
-  "cash": 180.9111881924207,
+  "cash": 312.0345654812386,
   "positions": {
-    "SPY": {
-      "shares": 13,
-      "entry": 722.3900146484375,
-      "stop": 718.78,
-      "target": 729.61,
-      "pattern": "MA pullback"
-    },
     "AAPL": {
       "shares": 4,
       "entry": 354.19000244140625,
       "stop": 352.42,
       "target": 357.73,
+      "pattern": "Momentum breakout"
+    },
+    "TSLA": {
+      "shares": 22,
+      "entry": 380.1499938964844,
+      "stop": 378.25,
+      "target": 383.95,
+      "pattern": "ORB breakout"
+    },
+    "AMD": {
+      "shares": 2,
+      "entry": 406.7799987792969,
+      "stop": 404.75,
+      "target": 410.85,
       "pattern": "Momentum breakout"
     }
   },
@@ -3135,6 +3142,30 @@
       "ticker": "AAPL",
       "shares": 4,
       "price": 354.19,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-25T17:08:07-05:00",
+      "action": "SELL (STOP-LOSS)",
+      "ticker": "SPY",
+      "shares": 13,
+      "price": 716.71,
+      "pnl": -73.84
+    },
+    {
+      "time": "2026-11-25T17:08:07-05:00",
+      "action": "BUY",
+      "ticker": "TSLA",
+      "shares": 22,
+      "price": 380.15,
+      "pattern": "ORB breakout"
+    },
+    {
+      "time": "2026-11-25T17:08:08-05:00",
+      "action": "BUY",
+      "ticker": "AMD",
+      "shares": 2,
+      "price": 406.78,
       "pattern": "Momentum breakout"
     }
   ],
