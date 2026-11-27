@@ -1,25 +1,25 @@
 {
-  "cash": 312.0345654812386,
+  "cash": 52.545491790825935,
   "positions": {
-    "AAPL": {
-      "shares": 4,
-      "entry": 354.19000244140625,
-      "stop": 352.42,
-      "target": 357.73,
+    "QQQ": {
+      "shares": 15,
+      "entry": 650.760009765625,
+      "stop": 647.51,
+      "target": 657.27,
       "pattern": "Momentum breakout"
     },
-    "TSLA": {
-      "shares": 22,
-      "entry": 380.1499938964844,
-      "stop": 378.25,
-      "target": 383.95,
-      "pattern": "ORB breakout"
+    "AAPL": {
+      "shares": 4,
+      "entry": 358.70001220703125,
+      "stop": 356.91,
+      "target": 362.29,
+      "pattern": "MA pullback"
     },
-    "AMD": {
-      "shares": 2,
-      "entry": 406.7799987792969,
-      "stop": 404.75,
-      "target": 410.85,
+    "TQQQ": {
+      "shares": 3,
+      "entry": 48.84000015258789,
+      "stop": 48.6,
+      "target": 49.33,
       "pattern": "Momentum breakout"
     }
   },
@@ -3166,6 +3166,54 @@
       "ticker": "AMD",
       "shares": 2,
       "price": 406.78,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-27T16:48:04-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 358.7,
+      "pnl": 18.04
+    },
+    {
+      "time": "2026-11-27T16:48:04-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "TSLA",
+      "shares": 22,
+      "price": 400.36,
+      "pnl": 444.62
+    },
+    {
+      "time": "2026-11-27T16:48:04-05:00",
+      "action": "SELL (TAKE-PROFIT)",
+      "ticker": "AMD",
+      "shares": 2,
+      "price": 425.86,
+      "pnl": 38.17
+    },
+    {
+      "time": "2026-11-27T16:48:05-05:00",
+      "action": "BUY",
+      "ticker": "QQQ",
+      "shares": 15,
+      "price": 650.76,
+      "pattern": "Momentum breakout"
+    },
+    {
+      "time": "2026-11-27T16:48:05-05:00",
+      "action": "BUY",
+      "ticker": "AAPL",
+      "shares": 4,
+      "price": 358.7,
+      "pattern": "MA pullback"
+    },
+    {
+      "time": "2026-11-27T16:48:08-05:00",
+      "action": "BUY",
+      "ticker": "TQQQ",
+      "shares": 3,
+      "price": 48.84,
       "pattern": "Momentum breakout"
     }
   ],

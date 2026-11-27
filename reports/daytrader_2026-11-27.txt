@@ -1,10 +1,10 @@
-DAY-TRADER · Friday, November 27 02:47
+DAY-TRADER · Friday, November 27 21:48
 ----------------------------------------
-Total value:   $10,910.67
-All-time P&L:  +$910.67 (+9.11%)
-Realized P&L:  +$1,434.86
-Closed trades: 195  |  Win rate: 36%
+Total value:   $11,395.27
+All-time P&L:  +$1,395.27 (+13.95%)
+Realized P&L:  +$1,935.69
+Closed trades: 198  |  Win rate: 37%
 Open now:      3
-  AAPL: 4 sh @ $354.19 (Momentum breakout), now $355.45 (+5.02)
-  TSLA: 22 sh @ $380.15 (ORB breakout), now $380.15 (+0.00)
-  AMD: 2 sh @ $406.78 (Momentum breakout), now $406.78 (+0.00)
+  QQQ: 15 sh @ $650.76 (Momentum breakout), now $650.76 (+0.00)
+  AAPL: 4 sh @ $358.70 (MA pullback), now $358.70 (+0.00)
+  TQQQ: 3 sh @ $48.84 (Momentum breakout), now $48.84 (+0.00)
